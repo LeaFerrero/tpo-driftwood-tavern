@@ -1,0 +1,98 @@
+@import url("./general.style.css");
+
+@font-face {
+  font-family: "Mr Eaves Small Caps";
+  src: url("../media/fonts/Mr-Eaves-Small-Caps.otf");
+}
+
+@font-face {
+  font-family: "Booksanity";
+  src: url("../media/fonts/Bookinsanity.otf");
+}
+
+*, html{
+    margin: 0;
+    padding: 0;
+
+}
+
+h1, h2{
+    color: var(--Color_HeaderText);
+    font-family: "Mr Eaves Small Caps";
+}
+
+p{
+    font-family: "Booksanity";
+}
+
+section{
+    background-image: var(--Background_Text);
+       
+}
+
+#logo{
+    background: url("../media/images/tavern-image.jpg") no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100svh;
+}
+
+.logo{
+    background-color: var(--Color_CaptionText);
+    border-image: url("../media/images/note-border.png") 12 stretch;
+    border-image-outset: 10px 0px;
+    border-image-width: 15px;
+    height: 250px;
+    width: 50%;
+    text-align: center;
+    box-shadow: 1px 4px 14px #888;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo > img{
+    margin-bottom: 1em;
+    height: 20%;
+}
+
+@media screen and (max-width: 640px) {
+    .tavern-image,
+    .inn-image,
+    .shows-image,
+    .stable-image{
+    width: 70svh;
+    }
+
+
+    .tavern-description,
+    .inn-description,
+    .shows-description,
+    .stable-description{
+        display: flex;
+        height: 50svh;
+        padding: 10%;
+        flex-direction: column;
+        justify-content: center;
+        justify-items: center;
+    }
+
+    .tavern-description > h2,
+    .inn-description > h2,
+    .shows-description > h2,
+    .stable-description > h2{
+        border-bottom: 3px solid var(--Color_HeaderUnderline);
+        margin-bottom: 0.5em;
+        font-size: 2em;
+    }
+
+}
+
+
+
+
+  
