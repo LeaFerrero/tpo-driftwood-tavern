@@ -1,4 +1,5 @@
 @import url("./general.style.css");
+@import url("./keyframe.style.css");
 
 @font-face {
   font-family: "Mr Eaves Small Caps";
@@ -16,6 +17,7 @@
 
 }
 
+
 h1, h2{
     color: var(--Color_HeaderText);
     font-family: "Mr Eaves Small Caps";
@@ -23,11 +25,11 @@ h1, h2{
 
 p{
     font-family: "Booksanity";
+    font-size: clamp(1rem, 2vw, 2rem);
 }
 
 section{
     background-image: var(--Background_Text);
-       
 }
 
 #logo{
@@ -60,38 +62,64 @@ section{
     height: 20%;
 }
 
-@media screen and (max-width: 640px) {
+.tavern-image,
+.inn-image,
+.shows-image,
+.stable-image{
+    width: 70svh;
+    height: 100%;
+}
+
+.tavern-description,
+.inn-description,
+.shows-description,
+.stable-description{
+    display: flex;
+    padding: 10%;
+    flex-direction: column;
+    justify-content: center;
+    animation: show 1s forwards;
+    
+}
+
+.tavern-description > h2,
+.inn-description > h2,
+.shows-description > h2,
+.stable-description > h2{
+    border-bottom: 3px solid var(--Color_HeaderUnderline);
+    margin-bottom: 0.5em;
+}
+
+
+
+@media screen and (min-width: 870px) {
+    
+    section{
+        display: flex;
+        flex-direction: row;
+        height: 100svh;
+        width: 100svw;
+    }
+    
     .tavern-image,
     .inn-image,
     .shows-image,
     .stable-image{
-    width: 70svh;
+        width: 50svw;
+    
     }
-
 
     .tavern-description,
     .inn-description,
     .shows-description,
     .stable-description{
-        display: flex;
-        height: 50svh;
-        padding: 10%;
-        flex-direction: column;
-        justify-content: center;
-        justify-items: center;
+        width: 30%;
     }
 
-    .tavern-description > h2,
-    .inn-description > h2,
-    .shows-description > h2,
-    .stable-description > h2{
-        border-bottom: 3px solid var(--Color_HeaderUnderline);
-        margin-bottom: 0.5em;
-        font-size: 2em;
+    section:nth-child(even) > img{
+        order: 2;
     }
-
 }
-
 
 
 
