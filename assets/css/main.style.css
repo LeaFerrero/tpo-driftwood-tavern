@@ -11,12 +11,6 @@
   src: url("../media/fonts/Bookinsanity.otf");
 }
 
-*, html{
-    margin: 0;
-    padding: 0;
-
-}
-
 h1, h2{
     color: var(--Color_HeaderText);
     font-family: "Mr Eaves Small Caps";
@@ -77,28 +71,23 @@ section > img{
 .shows-image,
 .stable-image{
     width: 100svw;
-
+    animation: show 1.5s ease-in-out;
 }
 
-.tavern-description,
-.inn-description,
-.shows-description,
-.stable-description{
+.description{
     margin-top: 25%;
     margin-bottom: 25%;
     display: flex;
     padding: 10%;
     flex-direction: column;
     justify-content: center;
-    animation: show 1s forwards;
+    animation: show 1.5s ease-in-out;
 }
 
-.tavern-description > h2,
-.inn-description > h2,
-.shows-description > h2,
-.stable-description > h2{
+.description > h2{
     border-bottom: 3px solid var(--Color_HeaderUnderline);
     margin-bottom: 0.5em;
+    font-size: clamp(1.5em, 5vw, 2em);
 }
 
 @media screen and (min-width: 620px) {
@@ -116,10 +105,7 @@ section > img{
         width: 50svw;
     }
 
-    .tavern-description,
-    .inn-description,
-    .shows-description,
-    .stable-description{
+    .description{
         margin: 0;
     }
 

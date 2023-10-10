@@ -1,19 +1,26 @@
-
-
 :root {
-  
+
   /* Colores */
   --Color_Background: #EEE5CE;
-  --Color_Accent: #E0E5C1;
+  --Color_CaptionText: #766649;
   --Color_HeaderUnderline: #C0AD6A;
   --Color_HeaderText: #58180D;
   --Color_MonsterStatBackground: #F2E5B5;
-  --Color_CaptionText: #766649;
   --Color_WatercolorStain: #BBAD82;
   --Color_Footnotes: #C9AD6A;
   
   /* Fondo */
   --Background_Text: url("../media/images/background.jpg");
+  
 }
 
+*, html{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: var(--Color_Background);
+  animation: show 1.5s ease-in-out;
+}
 
