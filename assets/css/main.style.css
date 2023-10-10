@@ -79,7 +79,6 @@ section{
     flex-direction: column;
     justify-content: center;
     animation: show 1s forwards;
-    
 }
 
 .tavern-description > h2,
