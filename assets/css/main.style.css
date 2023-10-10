@@ -17,7 +17,6 @@
 
 }
 
-
 h1, h2{
     color: var(--Color_HeaderText);
     font-family: "Mr Eaves Small Caps";
@@ -85,6 +84,8 @@ section > img{
 .inn-description,
 .shows-description,
 .stable-description{
+    margin-top: 25%;
+    margin-bottom: 25%;
     display: flex;
     padding: 10%;
     flex-direction: column;
@@ -113,15 +114,13 @@ section > img{
     .shows-image,
     .stable-image{
         width: 50svw;
-    
     }
 
     .tavern-description,
     .inn-description,
     .shows-description,
     .stable-description{
-        width: 30%;
-   
+        margin: 0;
     }
 
     section:nth-child(even) div{
