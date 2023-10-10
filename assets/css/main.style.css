@@ -58,6 +58,7 @@ section > img{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    animation: show 1.5s ease-in-out;
 }
 
 .logo > img{
