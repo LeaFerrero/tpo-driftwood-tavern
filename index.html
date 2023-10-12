@@ -9,15 +9,26 @@
     <title>Driftwood Tavern</title>
 </head>
 <body>
+    
     <header>
         <nav>
-            <a href="pages/our-history.html">Nuestra Historia</a>
-            <a href=#>Como llegar</a>
-            <a href=#>Nosotros</a>
+            <div class="hamburger-menu-container">
+                <div class="hamburger-menu">
+                    <div class="ham-bar bar-top"></div>
+                    <div class="ham-bar bar-mid"></div>
+                    <div class="ham-bar bar-bottom"></div>
+                </div>
+            </div>
+            <div class="off-screen-menu">
+                <ul class="links-list">
+                    <li><a href="pages/our-history.html">Nuestra Historia</a></li>
+                    <li><a href="pages/find-us.html">Como llegar</a></li>
+                </ul>
+            </div>
         </nav>
     </header>
+    
     <main>
-
         <section id="logo">
             <div class="logo">
                 <img src="./assets/media/images/logo.png" alt="logo de un barco">
@@ -80,6 +91,6 @@
 
     </main>
     <footer></footer>
-    <script type="module" src="./assets/js/wea.js"></script>
+    <script type="module" src="./assets/js/menu.script.js"></script>
 </body>
 </html>
