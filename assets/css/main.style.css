@@ -12,14 +12,12 @@ p{
 }
 
 main{
-    background-image: var(--imageBackgroundText);
     overflow: hidden;
 }
 
 section{
     display: flex;
     flex-direction: column;
-    width: 100svw;
 }
 
 section > img{
@@ -34,7 +32,7 @@ section > img{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100svh;
+    height: 95svh;
 }
 
 .logo > h1{
@@ -91,14 +89,23 @@ section > img{
     
     section{
         flex-direction: row;
+        height: 85svh;
+        margin-top: 5em;
+    }
 
-     }
+    #logo{
+        margin-top: 0;
+    }
+
+    main{
+        margin: 0 3em 0 3em;
+    }
     
     .tavern-image,
     .inn-image,
     .shows-image,
     .stable-image{
-        width: 50svw;
+        max-width: 40%;
     }
 
     .description{

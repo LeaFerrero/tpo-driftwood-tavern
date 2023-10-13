@@ -1,0 +1,5 @@
+@import url("./general.style.css");
+
+footer {
+    background-color: var(--colorBackgroundFooter);
+}

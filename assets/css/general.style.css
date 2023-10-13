@@ -19,11 +19,10 @@
   /* Colores */
   --colorBackground: #EEE5CE;
   --colorBackgroundLogo: #766649;
-  --colorHeaderText: #58180D;
+  --colorBackgroundHeader: #C9AD6A;
   --colorHeaderUnderline: #C0AD6A;
-  --colorMonsterStatBackground: #F2E5B5;
-  --colorWatercolorStain: #BBAD82;
-  --colorFootnotes: #C9AD6A;
+  --colorHeaderText: #58180D;
+  --colorBackgroundFooter: #BBAD82;
   
   /* Fuentes */
   --fontMenuTitle: "Scaly Sans Caps";
@@ -43,6 +42,10 @@
 
 body{
   background-color: var(--colorBackground);
+  background-image: var(--imageBackgroundText);
 }
+
+
+
 
 
