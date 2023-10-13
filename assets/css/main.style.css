@@ -12,13 +12,14 @@ p{
 }
 
 main{
-
     background-image: var(--imageBackgroundText);
+    overflow: hidden;
 }
 
 section{
     display: flex;
     flex-direction: column;
+    width: 100svw;
 }
 
 section > img{
@@ -27,6 +28,7 @@ section > img{
 
 #logo{
     background: url("../media/images/tavern-image.jpg") no-repeat;
+    padding: 1em;
     background-size: cover;
     max-width: 100%;
     display: flex;
@@ -89,9 +91,8 @@ section > img{
     
     section{
         flex-direction: row;
-        height: 100svh;
-        width: 100svw;
-    }
+
+     }
     
     .tavern-image,
     .inn-image,
@@ -102,6 +103,7 @@ section > img{
 
     .description{
         margin: 0;
+
     }
 
     section:nth-child(even) div{
