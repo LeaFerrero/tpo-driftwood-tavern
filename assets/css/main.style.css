@@ -1,28 +1,22 @@
 @import url("./general.style.css");
 @import url("./keyframe.style.css");
 
-@font-face {
-  font-family: "Mr Eaves Small Caps";
-  src: url("../media/fonts/Mr-Eaves-Small-Caps.otf");
-}
-
-@font-face {
-  font-family: "Booksanity";
-  src: url("../media/fonts/Bookinsanity.otf");
-}
-
 h1, h2{
-    color: var(--Color_HeaderText);
-    font-family: "Mr Eaves Small Caps";
+    color: var(--colorHeaderText);
+    font-family: var(--fontHeaderText)
 }
 
 p{
-    font-family: "Booksanity";
+    font-family: var(--fontParagraphText);
     font-size: clamp(0.7em, 2vw, 1em);
 }
 
+main{
+
+    background-image: var(--imageBackgroundText);
+}
+
 section{
-    background-image: var(--Background_Text);
     display: flex;
     flex-direction: column;
 }
@@ -46,7 +40,7 @@ section > img{
 }
 
 .logo{
-    background-color: var(--Color_CaptionText);
+    background-color: var(--colorBackgroundLogo);
     border-image: url("../media/images/note-border.png") 12 stretch;
     border-image-outset: 10px 0px;
     border-image-width: 15px;
@@ -86,7 +80,7 @@ section > img{
 }
 
 .description > h2{
-    border-bottom: 3px solid var(--Color_HeaderUnderline);
+    border-bottom: 3px solid var(--colorHeaderUnderline);
     margin-bottom: 0.25em;
     font-size: clamp(1.5em, 5vw, 2em);
 }

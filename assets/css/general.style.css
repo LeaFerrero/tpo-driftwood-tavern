@@ -1,33 +1,47 @@
+
 @font-face {
   font-family: "Scaly Sans Caps";
   src: url("../media/fonts/Scaly-Sans-Caps.otf");
 }
 
+@font-face {
+  font-family: "Mr Eaves Small Caps";
+  src: url("../media/fonts/Mr-Eaves-Small-Caps.otf");
+}
+
+@font-face {
+  font-family: "Booksanity";
+  src: url("../media/fonts/Bookinsanity.otf");
+}
+
 :root {
 
   /* Colores */
-  --Color_Background: #EEE5CE;
-  --Color_CaptionText: #766649;
-  --Color_HeaderUnderline: #C0AD6A;
-  --Color_HeaderText: #58180D;
-  --Color_MonsterStatBackground: #F2E5B5;
-  --Color_WatercolorStain: #BBAD82;
-  --Color_Footnotes: #C9AD6A;
+  --colorBackground: #EEE5CE;
+  --colorBackgroundLogo: #766649;
+  --colorHeaderText: #58180D;
+  --colorHeaderUnderline: #C0AD6A;
+  --colorMonsterStatBackground: #F2E5B5;
+  --colorWatercolorStain: #BBAD82;
+  --colorFootnotes: #C9AD6A;
   
-  /* Fondo */
-  --Background_Text: url("../media/images/background.jpg");
-
   /* Fuentes */
-  --font-menuTitle: 'Scaly Sans Caps';
+  --fontMenuTitle: "Scaly Sans Caps";
+  --fontHeader: "Mr Eaves Small Caps";
+  --fontParagraph: "Booksanity";
   
+  /* Imagenes de fondo */
+  --imageBackgroundText: url("../media/images/background.jpg");
 }
 
 *, html{
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
 }
 
 body{
-  background-color: var(--Color_Background);
+  background-color: var(--colorBackground);
 }
+
 
