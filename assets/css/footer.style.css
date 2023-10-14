@@ -1,17 +1,16 @@
 @import url("./general.style.css");
 
 footer {
-    margin-top: 5em;
     background-color: var(--colorBackgroundFooter);
     text-align: center;
-    height: 100svh;
+    height: max-content;
 }
 
 .section-footer{
-    margin-top: 10em;
+    margin-top: 5em;
 }
 
-.social-network > h2{
+.social-network > h3{
     padding-top: 3em;
     margin-bottom: 1em;
 }
@@ -36,9 +35,17 @@ footer {
 }
 
 .social-network-links-list img{
-    height: 3.5em;
+    max-width: 20%;
+    height: auto;
 }
 
 .rights p{
-    padding: 1% 5% 0 5%;
+    padding: 1% 5% 2% 5%;
+}
+
+@media screen and (min-width: 880px){
+    .social-network-links-list img{
+        max-width: 15%;
+        height: auto;
+    }
 }
