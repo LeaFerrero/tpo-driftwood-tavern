@@ -15,12 +15,12 @@ main{
     overflow: hidden;
 }
 
-section{
+.section-main{
     display: flex;
     flex-direction: column;
 }
 
-section > img{
+.section-main > img{
     order: 2;
 }
 
@@ -87,7 +87,7 @@ section > img{
 
 @media screen and (min-width: 620px) {
     
-    section{
+    .section-main{
         flex-direction: row;
         height: 85svh;
         margin-top: 5em;

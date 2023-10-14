@@ -3,7 +3,6 @@
 header{
   position: sticky;
   top: 0;
-  background-color: var(--colorBackgroundHeader);
 }
 
 nav{
@@ -16,12 +15,12 @@ nav{
   content: "Menu";
   padding-left: 0.5em;
   font-size: 2em;
-  font-family: var(--fontMenuTitle);
+  font-family: var(--fontMenu);
 }
 
 .hamburger-menu-container{
   width: 100svw;
-
+  background-color: var(--colorBackgroundHeader);
   z-index: 2;
   display: flex;
   align-items: center;
@@ -86,9 +85,9 @@ nav{
   left: 0;
 }
 
-.links-list{
+.navigation-links-list{
   list-style-type: none;
-  font-family: "Scaly Sans Caps";
+  font-family: var(--fontMenu);
   font-size: 2em;
   display: flex;
   flex-direction: column;
@@ -96,7 +95,7 @@ nav{
   padding-left: 0.5em;
 }
 
-li a{
+.navigation-links-list a{
   text-decoration: none;
   color: #000;
 }

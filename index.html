@@ -21,18 +21,18 @@
                 </div>
             </div>
             <div class="off-screen-menu">
-                <ul class="links-list">
+                <ul class="navigation-links-list">
                     <li><a href="./index.html#logo">Inicio</a></li>
                     <li><a href="pages/our-history.html">Nuestra Historia</a></li>
                     <li><a href="pages/find-us.html">Como llegar</a></li>
-                    <li><a href="./gitindex.html#social-network">Nuestras redes</a></li>
+                    <li><a href="./index.html#social-network">Redes sociales</a></li>
                 </ul>
             </div>
         </nav>
     </header>
     
     <main>
-        <section id="logo">
+        <section class="section-main" id="logo">
             <div class="logo">
                 <img src="./assets/media/images/logo.png" alt="logo de un barco">
                 <h1>Driftwood Tavern</h1>
@@ -40,7 +40,7 @@
             </div>
         </section>
         
-        <section class="tavern">
+        <section class="tavern section-main">
             <img class="tavern-image" src="./assets/media/images/party-eating.webp" alt="party comiendo">
             <div class="description">
                 <h2>Taverna</h2>
@@ -55,7 +55,7 @@
             </div>
         </section>
 
-        <section class="inn">
+        <section class="inn section-main">
                 <img class="inn-image" src="./assets/media/images/bedroom.jpg" alt="habitacion con una cama">
                 <div class="description">
                     <h2>Posada</h2>
@@ -68,7 +68,7 @@
             </div>
         </section>
 
-        <section class="shows">
+        <section class="shows section-main">
             <img class="shows-image" src="./assets/media/images/bardic-inspiration.jpg" alt="bardo tocando un laud sobre una mesa">
             <div class="description">
                 <h2>Shows en vivo</h2>
@@ -80,7 +80,7 @@
             </div>        
         </section>
 
-        <section class="stable">
+        <section class="stable section-main">
             <img class="stable-image" src="./assets/media/images/stable.jpg" alt="interior de un establo con un caballo">
             <div class="description">
                 <h2>Establos</h2>
@@ -94,7 +94,33 @@
     </main>
     
     <footer>
-        <section class="social-network" id="social-network"></section>
+        <section class="social-network section-footer" id="social-network">
+            <h2>Redes sociales</h2>
+            <ul class="social-network-links-list">
+                <li>Facebook<a href="https://www.facebook.com/dndbeyond/" target="_blank">
+                    <img src="./assets/media/icons/facebook.png" alt="icono de facebook">
+                </a></li>
+                <li>Twitter<a href="https://twitter.com/DnDBeyond" target="_blank">
+                    <img src="./assets/media/icons/gorjeo.png" alt="icono de twitter">
+                </a></li>
+                <li>Instagram<a href="https://www.instagram.com/dndbeyond/?hl=es" target="_blank">
+                    <img src="./assets/media/icons/instagram.png" alt="icono de instagram">
+                </a></li>
+            </ul>
+        </section>
+
+        <section class="rights section-footer">
+            <h3>Derechos y Aclaraciones</h3>
+            <p>
+                Esta pagina esta creada para un trabajo practico y es un Contenido de Fan no oficial creado por la comunidad de 
+                fans y permitido bajo la Política de Contenido de Fan de Wizards of the Coast. 
+                Este sitio web y su contenido no están aprobados, respaldados ni patrocinados por Wizards of the Coast.
+                <br>
+                Todas las marcas registradas y derechos de autor pertenecen a sus respectivos propietarios. 
+                Porciones de los materiales utilizados son propiedad de Wizards of the Coast. 
+                ©Wizards of the Coast LLC.
+            </p>
+        </section>
     </footer>
 
     <script type="module" src="./assets/js/menu.script.js"></script>

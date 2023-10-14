@@ -1,5 +1,44 @@
 @import url("./general.style.css");
 
 footer {
+    margin-top: 5em;
     background-color: var(--colorBackgroundFooter);
+    text-align: center;
+    height: 100svh;
+}
+
+.section-footer{
+    margin-top: 10em;
+}
+
+.social-network > h2{
+    padding-top: 3em;
+    margin-bottom: 1em;
+}
+
+.social-network a{
+    text-decoration: none;
+    color: #000;
+    font-family: var(--fontFooter);
+}
+
+.social-network-links-list{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.social-network-links-list li{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.social-network-links-list img{
+    height: 3.5em;
+}
+
+.rights p{
+    padding: 1% 5% 0 5%;
 }

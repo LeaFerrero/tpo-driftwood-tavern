@@ -2,17 +2,31 @@
 @font-face {
   font-family: "Scaly Sans Caps";
   src: url("../media/fonts/Scaly-Sans-Caps.otf");
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
   font-family: "Mr Eaves Small Caps";
   src: url("../media/fonts/Mr-Eaves-Small-Caps.otf");
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
   font-family: "Booksanity";
   src: url("../media/fonts/Bookinsanity.otf");
+  font-weight: normal;
+  font-style: normal;
 }
+
+@font-face {
+  font-family: "Scaly Sans";
+  src: url("../media/fonts/Scaly-Sans.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
 
 :root {
 
@@ -25,9 +39,10 @@
   --colorBackgroundFooter: #BBAD82;
   
   /* Fuentes */
-  --fontMenuTitle: "Scaly Sans Caps";
+  --fontMenu: "Scaly Sans Caps";
   --fontHeader: "Mr Eaves Small Caps";
   --fontParagraph: "Booksanity";
+  --fontFooter: "Scaly Sans";
   
   /* Imagenes de fondo */
   --imageBackgroundText: url("../media/images/background.jpg");
