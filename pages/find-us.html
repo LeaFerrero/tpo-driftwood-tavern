@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="../assets/css/header.style.css">
     <link rel="stylesheet" href="../assets/css/main.style.css">
     <link rel="stylesheet" href="../assets/css/footer.style.css">
+    <link rel="stylesheet" href="../assets/css/iframe.style.css">
     <link rel="shortcut icon" href="../assets/media/icons/galeon.png" type="image/x-icon">
     <title>Driftwood Tavern: Como llegar</title>
 </head>
@@ -13,6 +14,7 @@
 
     <header>
         <nav>
+            <h3>Driftwood Tavern</h3>
             <div class="hamburger-menu-container">
                 <div class="hamburger-menu">
                     <div class="ham-bar bar-top"></div>
@@ -25,13 +27,27 @@
                     <li><a href="../index.html#logo">Inicio</a></li>
                     <li><a href="./our-history.html">Nuestra Historia</a></li>
                     <li><a href="./find-us.html">Como llegar</a></li>
+                    <li><a href="./potions-catalog.html">Catalogo de pociones</a></li>
                     <li><a href="./find-us.html#social-network">Redes sociales</a></li>
                 </ul>
             </div>
         </nav>
     </header>
 
-    <main></main>
+    <main>
+        <section class="location section-main">
+            <div class="description">
+                <h1>Como llegar</h1>
+                <p>
+                    Estamos ubicados en la hermosa ciudad de Neverwinter, en Protectors Enclave.
+                    Entrando por la puerta sur, hay que caminar pasando el mercado, girar a la derecha de la plaza central,
+                    y apenas dobla el callejon ahi estamos. <br>
+                    ¡Les facilitamos un mapa de interactivo del disticto para que nos puedan visitar!
+                </p>
+            </div>
+            <iframe id="protectors-enclave-map" width="560" height="415" src="https://neverwinteractive.com/protectors-enclave.php?location=driftwood-tavern" frameborder="0" allowfullscreen></iframe>
+        </section>
+    </main>
     
     <footer>
         <section class="social-network section-footer" id="social-network">
@@ -48,9 +64,9 @@
                 </a></li>
             </ul>
         </section>
-
+    
         <section class="rights section-footer">
-            <h3>Derechos y Aclaraciones</h3>
+            <h4>Derechos y Aclaraciones</h4>
             <p>
                 Esta pagina esta creada para un trabajo practico y es un Contenido de Fan no oficial creado por la comunidad de 
                 fans y permitido bajo la Política de Contenido de Fan de Wizards of the Coast. 
@@ -64,5 +80,7 @@
     </footer>
 
     <script type="module" src="../assets/js/menu.script.js"></script>
+    <script type="module" src="../assets/js/iframe.script.js"></script>
+
 </body>
 </html>

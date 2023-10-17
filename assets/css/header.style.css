@@ -11,24 +11,32 @@ nav{
   align-items: center;
 }
 
+nav h3{
+  position: absolute;
+  right: 1em;
+  font-size: clamp(1em, 5svw, 1.5em);
+  z-index: 3;
+} 
+
 .hamburger-menu-container::after{
   content: "Menu";
   padding-left: 0.5em;
-  font-size: 2em;
+  font-size: clamp(1em, 5svw, 1.5em);
   font-family: var(--fontMenu);
 }
 
 .hamburger-menu-container{
-  width: 100svw;
   background-color: var(--colorBackgroundHeader);
+  width: 100svw;
   z-index: 2;
   display: flex;
   align-items: center;
+  height: 3em;
 }
 
 .hamburger-menu{
   height: 1.5em;
-  width: 2em;
+  width: 2.5em;
   position: relative;
   cursor: pointer;
   padding: 0.5em;
@@ -44,7 +52,6 @@ nav{
   left: 50%;
   transform: translate(-50%, -50%);
   transition: transform .6s, opacity .8s, top .6s;
-
 }
 
 .bar-top{
