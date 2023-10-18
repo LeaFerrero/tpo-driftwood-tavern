@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/form.style.css">
+    <link rel="stylesheet" href="../assets/css/header.style.css">
+    <link rel="stylesheet" href="../assets/css/main.style.css">
+    <link rel="stylesheet" href="../assets/css/footer.style.css">
+    <link rel="shortcut icon" href="../assets/media/icons/galeon.png" type="image/x-icon">
+    <title>Driftood Tavern: Reservas</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <h3>Driftwood Tavern</h3>
+            <div class="hamburger-menu-container">
+                <div class="hamburger-menu">
+                    <div class="ham-bar bar-top"></div>
+                    <div class="ham-bar bar-mid"></div>
+                    <div class="ham-bar bar-bottom"></div>
+                </div>
+            </div>
+            <div class="off-screen-menu">
+                <ul class="navigation-links-list">
+                    <li><a href="../index.html#logo">Inicio</a></li>
+                    <li><a href="./our-history.html">Nuestra Historia</a></li>
+                    <li><a href="./find-us.html">Como llegar</a></li>
+                    <li><a href="./potions-catalog.html">Catalogo de pociones</a></li>
+                    <li><a href="./form-booking.html">Reservas</a></li>
+                    <li><a href="./form-booking.html#social-network">Redes sociales</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="form-booking section-main" id="form-booking">
+            <div class="form_container description"> 
+                <h2>Reservas para la Posada</h2> 
+                <form class="form" id="reservation-form">
+                    <div class="name-quantity">
+                        <label for="name" class="form_label">Nombre:</label>    
+                        <input type="text" id="name" class="form_input" name="name" placeholder=" ">
+                        
+                        <label for="visitors" class="form_label">Cantidad de Visitantes:</label>  
+                        <input type="number" id="visitors" class="form_input" name="visitors" placeholder="">
+                    </div>
+                    <div class="date-time">
+                        <label for="date" class="form_label">Fecha</label>  
+                        <input type="date" id="date" class="form_input"  placeholder=" ">
+                        
+                        <label for="time" class="form_label"> Hora:</label>
+                        <input type="time" id="time" class="form_input"  placeholder=" ">
+                    </div>  
+                    <input type="submit"s class="form_submit" value="Enviar">
+                </form>  
+            </div>
+            <img class="image" src="../assets/media/images/party-playing.webp" alt="juegos">
+        </section>
+    </main>
+    
+    <footer>
+    <section class="social-network section-footer" id="social-network">
+        <h3>Redes sociales</h3>
+        <ul class="social-network-links-list">
+            <li>Facebook<a href="https://www.facebook.com/dndbeyond/" target="_blank">
+                <img src="../assets/media/icons/facebook.png" alt="icono de facebook">
+            </a></li>
+            <li>Twitter<a href="https://twitter.com/DnDBeyond" target="_blank">
+                <img src="../assets/media/icons/gorjeo.png" alt="icono de twitter">
+            </a></li>
+            <li>Instagram<a href="https://www.instagram.com/dndbeyond/?hl=es" target="_blank">
+                <img src="../assets/media/icons/instagram.png" alt="icono de instagram">
+            </a></li>
+        </ul>
+    </section>
+
+    <section class="rights section-footer">
+        <h3>Derechos y Aclaraciones</h3>
+        <p>
+            Esta pagina esta creada para un trabajo practico y es un Contenido de Fan no oficial creado por la comunidad de 
+            fans y permitido bajo la Política de Contenido de Fan de Wizards of the Coast. 
+            Este sitio web y su contenido no están aprobados, respaldados ni patrocinados por Wizards of the Coast.
+            <br>
+            Todas las marcas registradas y derechos de autor pertenecen a sus respectivos propietarios. 
+            Porciones de los materiales utilizados son propiedad de Wizards of the Coast. 
+            ©Wizards of the Coast LLC.
+        </p>
+    </section>
+    </footer>
+
+    <script type="module" src="../assets/js/menu.script.js"></script>
+    <script type="module" src="../assets/js/validations.js"></script>
+</body>
+</html>

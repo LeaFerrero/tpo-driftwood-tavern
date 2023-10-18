@@ -14,7 +14,7 @@ export class Render{
         else
         {
             fetch(url, options)
-            .then(res => res.json())
+            .then(response => response.json())
             .then(
                 data =>
                 {

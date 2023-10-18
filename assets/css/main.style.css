@@ -4,6 +4,7 @@
 main{
     overflow: hidden;
     flex: 1;
+     margin: 0 3em;
 }
 
 .section-main{
@@ -138,10 +139,6 @@ td
 
     #logo{
         margin-top: 0;
-    }
-
-    main{
-        margin: 0 3em 0 3em;
     }
     
     .image{
