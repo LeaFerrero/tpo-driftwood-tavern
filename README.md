@@ -21,14 +21,37 @@ Uno se fue antes de iniciar el proyecto, y otros dos se salieron a 2 semanas de 
   </li>
 </ul>
 
-<h2>2 - Publico obketivo</h2>
+<h2>2 - Publico objetivo</h2>
 <ul>
-  <li><b>Publico objetivo: Aventureros se encuentren en busca de un buen lugar donde comer, descansar o reabasteser su inventaro de pociones</b></li>
+  <li><b>Publico:</b>Aventureros se encuentren en busca de un buen lugar donde comer, descansar o reabasteser su inventaro de pociones.</li>
 </ul>
 
 <h2>2 - Estructura del sitio</h2>
+<ul>
+  <li><b>Maquetado para paginas inferiores a 1080:</b>
+    ![Maquetado para pantallas inferiores a 1080](https://raw.githubusercontent.com/LeaFerrero/tpo-driftwood-tavern/main/layout/inferior1080.png)</li>
+  <li><b>Maquetado para paginas superiores a 1080:</b>
+    ![Maquetado para superiores superiores a 1080](https://raw.githubusercontent.com/LeaFerrero/tpo-driftwood-tavern/main/layout/Pantallas%20inferiores%20a%201080.png)   </li>
+  <li><b>Maquetado de como se deberian representar las secciones:</b>
+     ![Maquetado de representacion de secciones](https://raw.githubusercontent.com/LeaFerrero/tpo-driftwood-tavern/main/layout/seccion.png)
+  </li>
+</ul>
 
-![Maquetado para pantallas inferiores a 1080](https://raw.githubusercontent.com/LeaFerrero/tpo-driftwood-tavern/main/layout/Pantallas%20inferiores%20a%201080.png)
+<h2>Diseño y Estilo:</h2>
+<p>Teniendo en cuenta que el sito web esta creado para una taberna dendro del juego de rol de Dungeons & Dragons, se busco darle la estetica del manual de dicho juego, tanto fuentes como paleta de colores se basaron en el manual.
+Acontinuacion una foto de una magina del manual:</p>
+![Pagina de manual de D&D](https://tothetablereviews.files.wordpress.com/2014/09/img_3155.jpg)
 
-
+<ul>
+  <li><b>Diseño y estilo:</b>Medieval fantastico, itentando imitar el manual del jugador de Dungeons & Dragons</li>
+  <li><b>Colores:</b>Tonos marrones y amarillos, verde claro para las tablas.</li>
+  <li><b>Tipografía:</b> Fue conseguida del repositorio https://github.com/jonathonf/solbera-dnd-fonts/tree/master, a continuacion una lista de que tipografia se usa y   donde. 
+    <ul>
+      <li>Eaves Small Caps: encabezados.
+      <li>Booksanity: parrafos. </li>
+      <li>Scaly Sans: formulario, mensaje de error en el formulario, footer, tbody de la tabla de pociones</li>
+      <li>Scaly Sans Bold: thead de la tabla de pociones</li>
+      <li>Scali Sans Caps: menu desplegable</li>
+    </ul>
+</ul>
 
