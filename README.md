@@ -45,7 +45,8 @@
 
 <h2>Diseño y Estilo:</h2>
 <p>Teniendo en cuenta que el sitio web está creado para una taberna dentro del juego de rol de Dungeons & Dragons, se buscó darle la estética del manual de dicho juego, tanto fuentes como paleta de colores se basaron en el manual. A continuación una foto de una página del manual:</p><br>
-![Página de manual de D&D](https://tothetablereviews.files.wordpress.com/2014/09/img_3155.jpg)
+![Página de manual de D&D]([https://tothetablereviews.files.wordpress.com/2014/09/img_3155.jpg](https://tothetablereviews.files.wordpress.com/2014/09/img_3155.jpg))
+
 
 <ul>
   <li>
@@ -54,7 +55,7 @@
   <li>
     <b>Colores:</b> Tonos marrones y amarillos, verde claro para las tablas.
   </li>
-  <li><b>Tipografía:</b> Fue conseguida del repositorio ![jonathonf/solbera-dnd-fonts](https://github.com/jonathonf/solbera-dnd-fonts/tree/master). 
+  <li><b>Tipografía:</b> Fue conseguida del repositorio https://github.com/jonathonf/solbera-dnd-fonts/tree/master. 
   A continuación una lista de qué tipografía se usa y dónde.
     <ul>
       <li>Eaves Small Caps: encabezados.</li>
