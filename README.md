@@ -40,7 +40,7 @@ Uno se fue antes de iniciar el proyecto, y otros dos se salieron a 2 semanas de 
 <h2>Diseño y Estilo:</h2>
 <p>Teniendo en cuenta que el sito web esta creado para una taberna dendro del juego de rol de Dungeons & Dragons, se busco darle la estetica del manual de dicho juego, tanto fuentes como paleta de colores se basaron en el manual.
 Acontinuacion una foto de una magina del manual:</p>
-`![Pagina de manual de D&D](https://tothetablereviews.files.wordpress.com/2014/09/img_3155.jpg)`
+![Pagina de manual de D&D](https://tothetablereviews.files.wordpress.com/2014/09/img_3155.jpg)
 
 <ul>
   <li><b>Diseño y estilo:</b>Medieval fantastico, itentando imitar el manual del jugador de Dungeons & Dragons</li>
