@@ -1,18 +1,24 @@
+/* Aca estan los estilos para el main */
+
 @import url("./general.style.css");
 @import url("./keyframe.style.css");
 
-main{
+main
+{
     overflow: hidden;
     flex: 1;
      margin: 0 3em;
 }
 
-.section-main{
+.section-main
+{
     display: flex;
     flex-direction: column;
 }
 
-#logo{
+/* Estilos para el logo */
+#logo
+{
     background: url("../media/images/tavern-image.jpg") no-repeat;
     padding: 1em;
     background-size: cover;
@@ -23,11 +29,13 @@ main{
     height: 100svh;
 }
 
-.logo > h1{
+.logo > h1
+{
     font-size: clamp(1em, 5vw, 3em);
 }
 
-.logo{
+.logo
+{
     background-color: var(--colorBackgroundLogo);
     border-image: url("../media/images/note-border.png") 12 stretch;
     border-image-outset: 10px 0px;
@@ -43,7 +51,8 @@ main{
     animation: show 1.5s ease-in-out;
 }
 
-.logo > img{
+.logo > img
+{
     margin-bottom: 1em;
     height: 20%;
 }
@@ -53,39 +62,43 @@ main{
     font-size: clamp(0.5em, 5vw, 1.5em);
 }
 
-iframe, .image{
+iframe, .image
+{
     width: 100svw;
     animation: show 1.5s ease-in-out;
 }
 
-.description{
+.description
+{
     margin-top: 25%;
     margin-bottom: 25%;
     display: flex;
-    padding: 5%;
+    padding: 5% 5% 5% 5%;
     flex-direction: column;
     justify-content: center;
     animation: show 1.5s ease-in-out;
 }
 
-#potions-catalog > h1,
-.description > h1, 
-.description > h2{
+.section-main h1,
+.section-main h2
+{
     border-bottom: 3px solid var(--colorHeaderUnderline);
     padding-bottom: 0.1em;
     margin-bottom: 0.25em;
     font-size: clamp(1em, 5vw, 2em);
 }
 
-#potions-catalog{
+.section-main p{
+    font-size: clamp(0.7em, 2vw, 1em);
+}
+
+#potions-catalog
+{
     flex-direction: column;
     margin-top: 2em;
 }
 
-.description > p{
-    font-size: clamp(0.7em, 2vw, 1em);
-}
-
+/* Tablas */
 table
 {
     box-sizing: border-box;
@@ -122,6 +135,62 @@ td
     height: 5em;
 }
 
+/* Formulario */
+.form{
+    padding-top: 1em ;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-input{
+    width: 100%;
+    font-size: clamp(0.7em, 2vw, 1em);
+    padding: 0.6em 0.6em;
+    border: none;
+    outline: none;
+    background: none;
+    background-color: #fff;
+    resize: none;
+    font-family: "Scaly Sans";
+    margin-bottom: 1em;
+  }
+  .name-subjet, .message
+  {
+    width: 100%;
+    margin-bottom: 1em;
+  }
+  
+  .form-input:focus + .form-label,
+  .form-input:not(:placeholder-shown) + .form-label 
+  {
+    transform: translateY(-12px) scale(1);
+    transform-origin: left top;
+  }
+  
+  .form-label 
+  {
+    font-size: clamp(0.7em, 2vw, 1em);
+    transform: translateY(10px);
+    transition: transform 0.5s, color 0.3s;
+    font-family: "Scaly Sans";
+  }
+  
+  .form-submit 
+  {
+    cursor: pointer;
+    width: 100%;
+    background-color: var(--colorSendButton);
+    font-size: 1.3em;
+    padding: 0.6em;
+    border: none;
+  }
+  
+  .form-submit:hover
+  {
+    background-color: var(--colorSendButtonHover);
+  }
+  
+/* Mediaqueris */
 @media screen and (min-width: 880px) {
     
     .section-main{
@@ -154,7 +223,36 @@ td
         margin: 0;
     }
 
-    section:nth-child(even) div{
+    section:nth-child(even) div
+    {
         order: 2;
     }
+
+    /* Formularios */
+    .form{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      }
+      
+      .form-input
+      {
+        margin-bottom: 0;
+      }
+    
+      .form-submit{
+        align-self: flex-end;
+      }
+    
+      .name-subjet, .message
+      {
+        width: 49%;
+      }
+    
+      .name-subjet
+      {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      }
 }
