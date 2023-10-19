@@ -30,8 +30,8 @@ Uno se fue antes de iniciar el proyecto, y otros dos se salieron a 2 semanas de 
 <ul>
   <li><b>Maquetado para paginas inferiores a 1080:</b> ![Maquetado para pantallas inferiores a 1080](https://raw.githubusercontent.com/LeaFerrero/tpo-driftwood-tavern/main/layout/inferior1080.png)
   </li>
-  <li><b>Maquetado para paginas superiores a 1080:</b>
-    ![Maquetado para superiores superiores a 1080](https://raw.githubusercontent.com/LeaFerrero/tpo-driftwood-tavern/main/layout/Pantallas%20inferiores%20a%201080.png)   </li>
+  <li><b>Maquetado para paginas superiores a 1080:</b></li>
+    (https://raw.githubusercontent.com/LeaFerrero/tpo-driftwood-tavern/main/layout/Pantallas%20inferiores%20a%201080.png)   
   <li><b>Maquetado de como se deberian representar las secciones:</b>
     ![Maquetado de representacion de secciones](https://raw.githubusercontent.com/LeaFerrero/tpo-driftwood-tavern/main/layout/seccion.png
   </li>
