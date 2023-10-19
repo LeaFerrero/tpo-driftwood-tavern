@@ -1,4 +1,4 @@
-<h1> Documentacion de TPO CAC - Siotio Web Driftwood Tavern - Tabern & inn -</h1
+<h1> Documentacion de TPO CAC - Stio Web Driftwood Tavern - Tabern & inn -</h1
 
 <h3>Antes de comenzar unas aclaraciones:</h3>
 <ol>
@@ -28,8 +28,7 @@ Uno se fue antes de iniciar el proyecto, y otros dos se salieron a 2 semanas de 
 
 <h2>2 - Estructura del sitio</h2>
 <ul>
-  <li><b>Maquetado para paginas inferiores a 1080:</b>
-    ![Maquetado para pantallas inferiores a 1080](https://raw.githubusercontent.com/LeaFerrero/tpo-driftwood-tavern/main/layout/inferior1080.png)</li>
+  <li><b>Maquetado para paginas inferiores a 1080:</b>![Maquetado para pantallas inferiores a 1080](https://raw.githubusercontent.com/LeaFerrero/tpo-driftwood-tavern/main/layout/inferior1080.png)</li>
   <li><b>Maquetado para paginas superiores a 1080:</b>
     ![Maquetado para superiores superiores a 1080](https://raw.githubusercontent.com/LeaFerrero/tpo-driftwood-tavern/main/layout/Pantallas%20inferiores%20a%201080.png)   </li>
   <li><b>Maquetado de como se deberian representar las secciones:</b>
