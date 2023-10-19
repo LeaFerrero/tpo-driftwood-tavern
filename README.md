@@ -10,9 +10,9 @@ Uno se fue antes de iniciar el proyecto, y otros dos se salieron a 2 semanas de 
 <h2>1 - Titulo y descripción del proyecto</h2>
 
 <ul>
-  <li><b>Titulo:</b> Driftwood Tavern - taberna y posada</li>
+  <li><b>Titulo:</b> Driftwood Tavern - taberna y posada.</li>
   <li><b>Descripcion:</b> El sitio es en si, es un sitio web de lo que seria un bar, pero para hacer algo distinto se opto por darle otra tematica y surgio la idea "¿y si   este bar esta hubicado en el mundo de Dungeons & Dragons?" "¿Como seria que la tabernera nos encargue un sitio para promocionar una taberna en un mundo asi?".
-  Bajo esta linea de pensamiento se desarrollo el sitio. Es un sitio web para promocionar una taberna en un mundo de fantasia. Aunque con ligeros cambios puede adaptarse a cualquier bar del mundo real</li>
+  Bajo esta linea de pensamiento se desarrollo el sitio. Es un sitio web para promocionar una taberna en un mundo de fantasia. Aunque con ligeros cambios puede adaptarse a cualquier bar del mundo real.</li>
 </ul>
 
 
