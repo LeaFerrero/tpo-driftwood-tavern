@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="../assets/css/main.style.css">
     <link rel="stylesheet" href="../assets/css/footer.style.css">
     <link rel="shortcut icon" href="../assets/media/icons/galeon.png" type="image/x-icon">
-    <title>Driftood Tavern: Contactanos</title>
+    <title>Driftood Tavern: Contact Us</title>
 </head>
 <body>
     <header>
@@ -22,39 +22,43 @@
             </div>
             <div class="off-screen-menu">
                 <ul class="navigation-links-list">
-                    <li><a href="../index.html#logo">Inicio</a></li>
-                    <li><a href="./our-history.html">Nuestra Historia</a></li>
-                    <li><a href="./find-us.html">Como llegar</a></li>
-                    <li><a href="./potions-catalog.html">Catalogo de pociones</a></li>
-                    <li><a href="./contact-form.html#contact-form">Contactanos</a></li>
-                    <li><a href="./contact-form.html#social-network">Redes sociales</a></li>            
+                    <li><a href="../index.html#logo">Home</a></li>
+                    <li><a href="./our-history.html">Our History</a></li>
+                    <li><a href="./location.html">Location</a></li>
+                    <li><a href="./potions-catalog.html">Potions Catalog</a></li>
+                    <li><a href="./contact-form.html#contact-form">Contact Us</a></li>
+                    <li><a href="./contact-form.html#social-media">Social Media</a></li>            
                 </ul>
             </div>
         </nav>
     </header>
 
     <main>
-        <section class="form-contact section-main" id="contact-form">
+        <section class="form-contact section-main">
             <div class="form-container description">
-                <h1>Contactanos</h1 >
-                <p>Les proporcionamos un pergamino de envío para que nos envíen sus consultas. 
-                    Recuerden que el mensaje no puede tener más de 25 palabras y, si están en otro plano de existencia, 
-                    hay un 5% de posibilidades de que el mensaje no llegue.
+                <h1>Contact Us</h1 >
+                <p>
+                    We provide a <i><b>Scroll of Sending</b></i> for you to send us your inquiries. Remember, 
+                    the message must not exceed 25 words, 
+                    and if you're on another plane of existence, there's a 5% chance that the message doesn't arrive.
                 </p>
-                <form action="https://getform.io/f/be8c4521-1a85-4cf1-bbed-5795925bde45" method="POST" class="form" id="form">
+                <form action="https://getform.io/f/be8c4521-1a85-4cf1-bbed-5795925bde45" method="POST" class="form" id="contact-form">
                     <div class="name-subjet">
                         <div class="name">
-                            <label for="name" class="form-label"> Nombre:</label>
+                            <label for="name" class="form-label"> Name:</label>
+                            <span id="error-name"></span>
                             <input type="text" name="name" id="name" class="form-input" placeholder="" required>
                         </div>
 
-                        <div class="mail">
-                            <label for="mail" class="form-label">Email:</label>
-                            <input type= "text" name="mail" id="mail" class="form-input" placeholder="" required>
+                        <div class="email">
+                            <label for="email" class="form-label">Email:</label>
+                            <span id="error-email"></span>
+                            <input type= "text" name="email" id="email" class="form-input" placeholder="" required>
                         </div>
                     </div> 
                     <div class="message">
-                        <label for="message" class="form-label">Mensaje:</label>
+                        <label for="message" class="form-label">Message:</label>
+                        <span id="error-message"></span>
                         <textarea type="message" name="message" rows="4" id="message" class="form-input" placeholder="" required></textarea>
                     </div>
                     <input type="submit" class="form-submit" id=submit value="Enviar">
@@ -65,34 +69,34 @@
     </main>
     
     <footer>
-        <section class="social-network section-footer" id="social-network">
-            <h3>Redes sociales</h3>
-            <ul class="social-network-links-list">
-                <li>Facebook<a href="https://www.facebook.com/dndbeyond/" target="-blank">
-                    <img src="../assets/media/icons/facebook.png" alt="icono de facebook">
+        <section class="social-media section-footer" id="social-media">
+            <h3>Social media</h3>
+            <ul class="social-media-links-list">
+                <li>Facebook<a href="https://www.facebook.com/dndbeyond/" target="_blank">
+                    <img src="../assets/media/icons/facebook.png" alt="facebook icon">
                 </a></li>
-                <li>Twitter<a href="https://twitter.com/DnDBeyond" target="-blank">
-                    <img src="../assets/media/icons/gorjeo.png" alt="icono de twitter">
+                <li>Twitter<a href="https://twitter.com/DnDBeyond" target="_blank">
+                    <img src="../assets/media/icons/gorjeo.png" alt="twitter icon">
                 </a></li>
-                <li>Instagram<a href="https://www.instagram.com/dndbeyond/?hl=es" target="-blank">
-                    <img src="../assets/media/icons/instagram.png" alt="icono de instagram">
+                <li>Instagram<a href="https://www.instagram.com/dndbeyond/?hl=es" target="_blank">
+                    <img src="../assets/media/icons/instagram.png" alt="instagram icon">
                 </a></li>
             </ul>
         </section>
-        
+
         <section class="rights section-footer">
-            <h3>Derechos y Aclaraciones</h3>
+            <h4>Rights and Disclaimers</h4>
             <p>
-                Esta pagina esta creada para un trabajo practico y es un Contenido de Fan no oficial creado por la comunidad de 
-                fans y permitido bajo la Política de Contenido de Fan de Wizards of the Coast. 
-                Este sitio web y su contenido no están aprobados, respaldados ni patrocinados por Wizards of the Coast.
+                This page is created for an assignment and is unofficial Fan Content created by the fan community and 
+                allowed under Wizards of the Coast's Fan Content Policy.
+                This website and its content are not approved, endorsed, or sponsored by Wizards of the Coast.
                 <br>
-                Todas las marcas registradas y derechos de autor pertenecen a sus respectivos propietarios. 
-                Porciones de los materiales utilizados son propiedad de Wizards of the Coast. 
+                All trademarks and copyrights are the property of their respective owners.
+                Portions of the materials used are property of Wizards of the Coast.
                 ©Wizards of the Coast LLC.
             </p>
+            </p>
         </section>
-    </footer>
     <script type="module" src="../assets/js/menu.script.js"></script>
     <script type="module" src="../assets/js/validations.script.js"></script>
 </body>

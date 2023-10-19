@@ -7,6 +7,7 @@ main
 {
     overflow: hidden;
     flex: 1;
+    margin: 0 1em;
 }
 
 .section-main
@@ -18,7 +19,7 @@ main
 /* Estilos para el logo */
 #logo
 {
-    background: url("../media/images/tavern-image.jpg") no-repeat;
+    background: url("../media/images/tavern-image.webp") no-repeat;
     padding: 1em;
     background-size: cover;
     max-width: 100%;
@@ -30,7 +31,7 @@ main
 
 .logo > h1
 {
-    font-size: clamp(1em, 5vw, 3em);
+    font-size: clamp(2em, 4vw, 2.5em);
 }
 
 .logo
@@ -39,8 +40,8 @@ main
     border-image: url("../media/images/note-border.png") 12 stretch;
     border-image-outset: 10px 0px;
     border-image-width: 15px;
-    height: 45%;
-    width: 55%;
+    height: 40vmin;
+    width: 75vmin;
     text-align: center;
     box-shadow: 1px 4px 14px #888;
     display: flex;
@@ -58,7 +59,16 @@ main
 
 .logo > p
 {
-    font-size: clamp(0.5em, 5vw, 1.5em);
+    font-size: clamp(0.5em, 3vw, 1.5em);
+}
+
+.section-main h1,
+.section-main h2
+{
+    border-bottom: 3px solid var(--colorHeaderUnderline);
+    padding-bottom: 0.1em;
+    margin-bottom: 0.25em;
+    font-size: clamp(1em, 5vw, 2em);
 }
 
 iframe, .image
@@ -78,23 +88,15 @@ iframe, .image
     animation: show 1.5s ease-in-out;
 }
 
-.section-main h1,
-.section-main h2
+.section-main p
 {
-    border-bottom: 3px solid var(--colorHeaderUnderline);
-    padding-bottom: 0.1em;
-    margin-bottom: 0.25em;
-    font-size: clamp(1em, 5vw, 2em);
-}
-
-.section-main p{
     font-size: clamp(0.7em, 2vw, 1em);
 }
 
 #potions-catalog
 {
     flex-direction: column;
-    margin-top: 2em;
+    margin-top: 3.4em;
 }
 
 /* Tablas */
@@ -135,13 +137,15 @@ td
 }
 
 /* Formulario */
-.form{
+.form
+{
     padding-top: 1em ;
     display: flex;
     flex-direction: column;
-  }
-  
-  .form-input{
+}
+
+.form-input
+{
     width: 100%;
     font-size: clamp(0.7em, 2vw, 1em);
     padding: 0.6em 0.6em;
@@ -150,47 +154,65 @@ td
     background: none;
     background-color: #fff;
     resize: none;
-    font-family: "Scaly Sans";
+    font-family: var(--fontForm);
     margin-bottom: 1em;
-  }
-  .name-subjet, .message
-  {
+}
+
+.name-subjet, .message
+{
     width: 100%;
     margin-bottom: 1em;
-  }
-  
-  .form-input:focus + .form-label,
-  .form-input:not(:placeholder-shown) + .form-label 
-  {
+}
+
+.form-input:focus + .form-label,
+.form-input:not(:placeholder-shown) + .form-label 
+{
     transform: translateY(-12px) scale(1);
     transform-origin: left top;
-  }
-  
-  .form-label 
-  {
+}
+
+label 
+{
     font-size: clamp(0.7em, 2vw, 1em);
     transform: translateY(10px);
     transition: transform 0.5s, color 0.3s;
-    font-family: "Scaly Sans";
-  }
-  
-  .form-submit 
-  {
+    font-family: var(--fontForm);
+}
+
+.form-submit 
+{
     cursor: pointer;
     width: 100%;
     background-color: var(--colorSendButton);
     font-size: 1.3em;
     padding: 0.6em;
     border: none;
-  }
-  
-  .form-submit:hover
-  {
+}
+
+.form-submit:hover
+{
     background-color: var(--colorSendButtonHover);
-  }
+}
+
+.name, .email,
+.message
+{
+    position: relative;
+}
+
+#error-name,
+#error-email,
+#error-message
+{
+    color: var(--colorErrorMessage);
+    font-family: var(--fontErrorMessage);
+    position: absolute;
+    right: 0;
+    font-size: clamp(0.7em, 2vw, 1em);
+}
   
 /* Mediaqueris */
-@media screen and (min-width: 880px) 
+@media screen and (min-width: 1080px) 
 {
     main
     {
@@ -201,15 +223,8 @@ td
     {
         flex-direction: row;
         height: max-content;
-        margin-top: 3em;
-    }
-
-    .tavern, .inn,
-    .shows, .stable,
-    .potions-catalog
-    {
         margin-top: 7em;
-    }  
+    }
 
     #logo{
         margin-top: 0;
@@ -226,6 +241,8 @@ td
 
     .description{
         margin: 0;
+        padding-top: 0;
+        padding-bottom: 0;
     }
 
     section:nth-child(even) div
