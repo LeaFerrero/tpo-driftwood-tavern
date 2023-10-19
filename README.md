@@ -23,16 +23,17 @@ Uno se fue antes de iniciar el proyecto, y otros dos se salieron a 2 semanas de 
 
 <h2>2 - Publico objetivo</h2>
 <ul>
-  <li><b>Publico:</b>Aventureros se encuentren en busca de un buen lugar donde comer, descansar o reabasteser su inventaro de pociones.</li>
+  <li><b>Publico:</b> Aventureros se encuentren en busca de un buen lugar donde comer, descansar o reabasteser su inventaro de pociones.</li>
 </ul>
 
 <h2>2 - Estructura del sitio</h2>
 <ul>
-  <li><b>Maquetado para paginas inferiores a 1080:</b>![Maquetado para pantallas inferiores a 1080](https://raw.githubusercontent.com/LeaFerrero/tpo-driftwood-tavern/main/layout/inferior1080.png)</li>
+  <li><b>Maquetado para paginas inferiores a 1080:</b> ![Maquetado para pantallas inferiores a 1080](https://raw.githubusercontent.com/LeaFerrero/tpo-driftwood-tavern/main/layout/inferior1080.png)
+  </li>
   <li><b>Maquetado para paginas superiores a 1080:</b>
     ![Maquetado para superiores superiores a 1080](https://raw.githubusercontent.com/LeaFerrero/tpo-driftwood-tavern/main/layout/Pantallas%20inferiores%20a%201080.png)   </li>
   <li><b>Maquetado de como se deberian representar las secciones:</b>
-     ![Maquetado de representacion de secciones](https://raw.githubusercontent.com/LeaFerrero/tpo-driftwood-tavern/main/layout/seccion.png)
+    ![Maquetado de representacion de secciones](https://raw.githubusercontent.com/LeaFerrero/tpo-driftwood-tavern/main/layout/seccion.png
   </li>
 </ul>
 
