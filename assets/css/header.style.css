@@ -21,7 +21,13 @@ nav h3
   right: 1em;
   font-size: clamp(1em, 5svw, 1.5em);
   z-index: 3;
-} 
+}
+
+nav a
+{
+  text-decoration: none;
+  color: var(--colorHeaderText);
+}
 
 .hamburger-menu-container::after
 {
