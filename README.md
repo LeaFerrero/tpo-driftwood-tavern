@@ -28,7 +28,7 @@ Uno se fue antes de iniciar el proyecto, y otros dos se salieron a 2 semanas de 
 
 <h2>2 - Estructura del sitio</h2>
 <ul>
-![9f39c430b190dcfd4433f3beb25fbb5888ea6b93_hq](https://user-images.githubusercontent.com/98682483/167242632-23d8784d-7b20-4681-93ea-be1f9b1c102a.jpg)
+![9f39c430b190dcfd4433f3beb25fbb5888ea6b93_hq](https://raw.githubusercontent.com/LeaFerrero/tpo-driftwood-tavern/main/layout/Pantallas%20inferiores%20a%201080.png)
 </ul>
 
 
