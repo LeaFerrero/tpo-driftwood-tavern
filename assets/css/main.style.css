@@ -7,7 +7,6 @@ main
 {
     overflow: hidden;
     flex: 1;
-    margin: 0 1em;
 }
 
 .section-main
@@ -191,12 +190,18 @@ td
   }
   
 /* Mediaqueris */
-@media screen and (min-width: 880px) {
+@media screen and (min-width: 880px) 
+{
+    main
+    {
+        margin: 0 3em;
+    }
     
-    .section-main{
+    .section-main
+    {
         flex-direction: row;
         height: max-content;
-        margin-top: 2em;
+        margin-top: 3em;
     }
 
     .tavern, .inn,
