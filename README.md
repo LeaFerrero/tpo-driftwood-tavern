@@ -2,8 +2,12 @@
 
 <h3>Antes de comenzar unas aclaraciones:</h3>
 <ol>
-  <li>El grupo originalmente fue de 5 personas, pero con el paso de la cursada mucha gente dejó y en el caso de este grupo no fue distinto. Uno se fue antes de iniciar el proyecto, y otros dos se salieron a 2 semanas de la entrega y con el trabajo ya iniciado. Honestamente, hubiese sido muy injusto tener que desechar el trabajo hecho o ingresar a otro grupo con trabajo ya hecho, así que el proyecto siguió adelante con solo 2 personas.</li>
-  <li>Hubo problemas con git y no supimos cómo solucionarlos, así que los archivos me los pasaban a mí (Leandro Ferrero) y yo me encargaba de hacer el push, por eso están todos hechos por mí.</li>
+  <li>
+    El grupo originalmente fue de 5 personas, pero con el paso de la cursada mucha gente dejó y en el caso de este grupo no fue distinto. Uno se fue antes de iniciar el proyecto, y otros dos se salieron a 2 semanas de la entrega y con el trabajo ya iniciado. Honestamente, hubiese sido muy injusto tener que desechar el trabajo hecho o ingresar a otro grupo con trabajo ya hecho, así que el proyecto siguió adelante con solo 2 personas.
+  </li>
+  <li>
+    Hubo problemas con git y no supimos cómo solucionarlos, así que los archivos me los pasaban a mí (Leandro Ferrero) y yo me encargaba de hacer el push, por eso están todos hechos por mí.
+  </li>
 </ol>
 
 <h2>1 - Titulo y descripción del proyecto</h2>
@@ -19,24 +23,39 @@
 
 <h2>2 - Publico objetivo</h2>
 <ul>
-  <li><b>Publico:</b> Aventureros que se encuentren en busca de un buen lugar donde comer, descansar o reabastecer su inventario de pociones.</li>
+  <li>
+    <b>Publico:</b> Aventureros que se encuentren en busca de un buen lugar donde comer, descansar o reabastecer su inventario de pociones.
+  </li>
 </ul>
 
 <h2>2 - Estructura del sitio</h2>
 <ul>
-  <li><b>Maquetado para páginas inferiores a 1080:</b> ![Maquetado para pantallas inferiores a 1080](https://raw.githubusercontent.com/LeaFerrero/tpo-driftwood-tavern/main/layout/inferior1080.png)</li>
-  <li><b>Maquetado para páginas superiores a 1080:</b> ![Maquetado para pantallas superiores a 1080](https://raw.githubusercontent.com/LeaFerrero/tpo-driftwood-tavern/main/layout/Pantallas%20superiores%20a%201080.png)</li>
-  <li><b>Maquetado de cómo se deberían representar las secciones:</b> ![Maquetado de representación de secciones](https://raw.githubusercontent.com/LeaFerrero/tpo-driftwood-tavern/main/layout/seccion.png)</li>
+  <li>
+    <b>Maquetado para páginas inferiores a 1080:</b> 
+    ![Maquetado para pantallas inferiores a 1080](https://raw.githubusercontent.com/LeaFerrero/tpo-driftwood-tavern/main/layout/inferior1080.png)
+  </li>
+  <li>
+    <b>Maquetado para páginas superiores a 1080:</b> ![Maquetado para pantallas superiores a 1080](https://raw.githubusercontent.com/LeaFerrero/tpo-driftwood-tavern/main/layout/Pantallas%20superiores%20a%201080.png)
+  </li>
+  <li>
+    <b>Maquetado de cómo se deberían representar las secciones:</b> 
+    ![Maquetado de representación de secciones](https://raw.githubusercontent.com/LeaFerrero/tpo-driftwood-tavern/main/layout/seccion.png)
+  </li>
 </ul>
 
 <h2>Diseño y Estilo:</h2>
-<p>Teniendo en cuenta que el sitio web está creado para una taberna dentro del juego de rol de Dungeons & Dragons, se buscó darle la estética del manual de dicho juego, tanto fuentes como paleta de colores se basaron en el manual. A continuación una foto de una página del manual:</p>
+<p>Teniendo en cuenta que el sitio web está creado para una taberna dentro del juego de rol de Dungeons & Dragons, se buscó darle la estética del manual de dicho juego, tanto fuentes como paleta de colores se basaron en el manual. A continuación una foto de una página del manual:</p><br>
 ![Página de manual de D&D](https://tothetablereviews.files.wordpress.com/2014/09/img_3155.jpg)
 
 <ul>
-  <li><b>Diseño y estilo:</b> Medieval fantástico, intentando imitar el manual del jugador de Dungeons & Dragons</li>
-  <li><b>Colores:</b> Tonos marrones y amarillos, verde claro para las tablas.</li>
-  <li><b>Tipografía:</b> Fue conseguida del repositorio [jonathonf/solbera-dnd-fonts](https://github.com/jonathonf/solbera-dnd-fonts/tree/master). A continuación una lista de qué tipografía se usa y dónde.
+  <li>
+    <b>Diseño y estilo:</b> Medieval fantástico, intentando imitar el manual del jugador de Dungeons & Dragons
+  </li>
+  <li>
+    <b>Colores:</b> Tonos marrones y amarillos, verde claro para las tablas.
+  </li>
+  <li><b>Tipografía:</b> Fue conseguida del repositorio ![jonathonf/solbera-dnd-fonts](https://github.com/jonathonf/solbera-dnd-fonts/tree/master). 
+  A continuación una lista de qué tipografía se usa y dónde.
     <ul>
       <li>Eaves Small Caps: encabezados.</li>
       <li>Booksanity: párrafos.</li>
