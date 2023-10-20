@@ -1,5 +1,3 @@
-    ![Maquetado para pantallas inferiores a 1080](https://raw.githubusercontent.com/LeaFerrero/tpo-driftwood-tavern/main/layout/inferior1080.png)
-
 <h1>Documentacion de TPO CAC - Stio Web Driftwood Tavern - Tabern & inn -</h1>
 
 <h3>Antes de comenzar unas aclaraciones:</h3>
@@ -34,7 +32,7 @@
 <ul>
   <li>
     <b>Maquetado para páginas inferiores a 1080:</b> 
-
+    ![Descripción de la imagen](https://raw.githubusercontent.com/LeaFerrero/tpo-driftwood-tavern/main/layout/inferior1080.png)
   </li>
   <li>
     <b>Maquetado para páginas superiores a 1080:</b> ![Maquetado para pantallas superiores a 1080](https://raw.githubusercontent.com/LeaFerrero/tpo-driftwood-tavern/main/layout/Pantallas%20superiores%20a%201080.png)
