@@ -35,7 +35,7 @@
     ![Descripción de la imagen](https://raw.githubusercontent.com/LeaFerrero/tpo-driftwood-tavern/main/layout/inferior1080.png)
   </li>
   <li>
-    <b>Maquetado para páginas superiores a 1080:</b> ![Maquetado para pantallas superiores a 1080](https://raw.githubusercontent.com/LeaFerrero/tpo-driftwood-tavern/main/layout/Pantallas%20superiores%20a%201080.png)
+    <b>Maquetado para páginas superiores a 1080:</b> ![Maquetado para pantallas superiores a 1080](https://raw.githubusercontent.com/LeaFerrero/tpo-driftwood-tavern/main/layout/superior1080.png)
   </li>
   <li>
     <b>Maquetado de cómo se deberían representar las secciones:</b> 
