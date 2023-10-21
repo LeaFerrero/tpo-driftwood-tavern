@@ -5,61 +5,50 @@
 
 main
 {
-    overflow: hidden;
     flex: 1;
-    margin: 0 1em;
-}
-
-.section-main
-{
-    display: flex;
-    flex-direction: column;
 }
 
 /* Estilos para el logo */
-#logo
+#logo-section
 {
-    background: url("../media/images/tavern-image.webp") no-repeat;
-    padding: 1em;
+    background: url("../media/images/tavern-image3.png") no-repeat;
     background-size: cover;
-    max-width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100svh;
 }
 
-.logo > h1
-{
-    font-size: clamp(2em, 4vw, 2.5em);
-}
-
 .logo
 {
-    background-color: var(--colorBackgroundLogo);
-    border-image: url("../media/images/note-border.png") 12 stretch;
-    border-image-outset: 10px 0px;
-    border-image-width: 15px;
-    height: 40vmin;
+    height: 75vmin;
     width: 75vmin;
     text-align: center;
-    box-shadow: 1px 4px 14px #888;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     animation: show 1.5s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .logo > img
 {
-    margin-bottom: 1em;
-    height: 20%;
+    height: 100%;
 }
 
 .logo > p
 {
     font-size: clamp(0.5em, 3vw, 1.5em);
+}
+
+.section-main
+{
+    display: flex;
+    flex-direction: column;
+    margin: 0 1em;
 }
 
 .section-main h1,
@@ -71,10 +60,18 @@ main
     font-size: clamp(1em, 5vw, 2em);
 }
 
+.section-main p
+{
+    font-size: clamp(0.7em, 2vw, 1em);
+}
+
 iframe, .image
 {
-    width: 100svw;
+    border-image: url("../media/images/note-border.png") 12 stretch;
+    border-image-outset: 12px 0px;
+    border-image-width: 15px;
     animation: show 1.5s ease-in-out;
+    box-shadow: 0px 0px 5px 5px #8f8971;
 }
 
 .description
@@ -88,10 +85,6 @@ iframe, .image
     animation: show 1.5s ease-in-out;
 }
 
-.section-main p
-{
-    font-size: clamp(0.7em, 2vw, 1em);
-}
 
 #potions-catalog
 {
@@ -214,29 +207,31 @@ label
 /* Mediaqueris */
 @media screen and (min-width: 1080px) 
 {
-    main
+    #logo-section
     {
-        margin: 0 3em;
+        background-size: 100svw 100svh;
     }
-    
+
     .section-main
     {
         flex-direction: row;
         height: max-content;
-        margin-top: 7em;
+        margin: 7em 3em;
     }
 
-    #logo{
+    #logo
+    {
         margin-top: 0;
     }
     
-    .image{
-        max-width: 35%;
-        object-fit:contain;
+    .image
+    {
+        max-width: 30%;
+        object-fit: fill;
     }
 
     iframe{
-        width: 80svw;
+        width: 65svw;
     }
 
     .description{
@@ -251,30 +246,32 @@ label
     }
 
     /* Formularios */
-    .form{
+    .form
+    {
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-between;
-      }
-      
-      .form-input
-      {
+    }
+    
+    .form-input
+    {
         margin-bottom: 0;
-      }
-    
-      .form-submit{
+    }
+
+    .form-submit
+    {
         align-self: flex-end;
-      }
-    
-      .name-subjet, .message
-      {
+    }
+
+    .name-subjet, .message
+    {
         width: 49%;
-      }
-    
-      .name-subjet
-      {
+    }
+
+    .name-subjet
+    {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-      }
+    }
 }

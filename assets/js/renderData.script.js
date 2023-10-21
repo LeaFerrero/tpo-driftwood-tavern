@@ -8,14 +8,14 @@ export function renderData (data)
             <table>
                 <thead>
                     <tr>
-                        <td>Nombre</td>
-                        <td>Efecto</td>
+                        <td>Name</td>
+                        <td>Effect</td>
                     </tr>
                 </thead>
                 <tbody>
         `;
 
-        for (const item of data.results) 
+        for (let item of data.results) 
         {
             const replaceCharacter = /[|_-]/g;
             item.desc = item.desc.replace(replaceCharacter, "");

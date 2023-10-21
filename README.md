@@ -1,10 +1,13 @@
-<h1> Documentacion de TPO CAC - Siotio Web Driftwood Tavern - Tabern & inn -</h1
+<h1>Documentacion de TPO CAC - Stio Web Driftwood Tavern - Tavern & inn -</h1>
 
 <h3>Antes de comenzar unas aclaraciones:</h3>
 <ol>
-  <li>El grupo originalmente fue de 5 personas, pero con el paso de la cursada mucha gente dejo y en el caso de este grupo no fue distinto.
-Uno se fue antes de iniciar el proyecto, y otros dos se salieron a 2 semanas de la entrega y con el trabajo ya iniciado, honestamente hubiese sido muy injusto tener que desechar el trabajo hecho o ingresar a otro grupo con trabajo ya hecho, asi que el proyecto siguio adelante con solo 2 personas.</li>
-   <li>Hubo problemas con git y no supimos como solucionarlos, asi que los archivos me los pasaban a mi (Leandro Ferrero) y yo me encargaba de hacer el push, por eso estan todos hehchos por mi.</li>
+  <li>
+    El grupo originalmente fue de 5 personas, pero con el paso de la cursada mucha gente dejó y en el caso de este grupo no fue distinto. Uno se fue antes de iniciar el proyecto, y otros dos se salieron a 2 semanas de la entrega y con el trabajo ya iniciado. Honestamente, hubiese sido muy injusto tener que desechar el trabajo hecho o ingresar a otro grupo con trabajo ya hecho, así que el proyecto siguió adelante con solo 2 personas.
+  </li>
+  <li>
+    Hubo problemas con git y no supimos cómo solucionarlos, y si bien el proyecto se desarrollo en conjunto y cada parte aporto lo suyo, los archivos me los pasaban a mí (Leandro Ferrero) y yo me encargaba de hacer el push, por eso están todos hechos por mí. En la parte de acreditacion se indica quien hizo cada parte del proyecto.
+  </li>
 </ol>
 
 <h2>1 - Titulo y descripción del proyecto</h2>
@@ -14,21 +17,64 @@ Uno se fue antes de iniciar el proyecto, y otros dos se salieron a 2 semanas de 
     <b>Titulo:</b> Driftwood Tavern - Tavern & inn.
   </li>
   <li>
-    <b>Descripcion:</b> El sitio es en si, es un sitio web de lo que seria un bar, pero para hacer algo distinto se opto por darle otra tematica y surgio la idea "¿y       si este bar esta hubicado en el mundo de Dungeons & Dragons?" "¿Como seria que la tabernera nos encargue un sitio para promocionar una taberna en un mundo asi?".
-    Bajo esta linea de pensamiento se desarrollo el sitio. Es un sitio web para promocionar una taberna en un mundo de fantasia. Aunque con ligeros cambios puede 
-    adaptarse a cualquier bar del mundo real.
-    Pequeña aclaracion, la pagina fue pensada en español en un principio, pero como la API consumida esta en ingles, y en base a testeos de usuarios agenos al royecto      que les chocaba que dos idiomas distintos, se opto por cambiar todo a ingles. 
+    <b>Descripcion:</b> El sitio es en sí, es un sitio web de lo que sería un bar, pero para hacer algo distinto se optó por darle otra temática y surgió la idea "¿y si este bar está ubicado en el mundo de Dungeons & Dragons?" "¿Cómo sería que la tabernera nos encargue un sitio para promocionar una taberna en un mundo así?". Bajo esta línea de pensamiento se desarrolló el sitio. Es un sitio web para promocionar una taberna en un mundo de fantasía. Aunque con ligeros cambios puede adaptarse a cualquier bar del mundo real. </br>
+    Pequeña aclaración, la página fue pensada en español en un principio, pero como la API consumida está en inglés, y en base a testeos de usuarios ajenos al proyecto que les chocaba que dos idiomas distintos, se optó por cambiar todo a inglés.
   </li>
 </ul>
 
-<h2>2 - Publico obketivo</h2>
+<h2>2 - Publico objetivo</h2>
 <ul>
-  <li><b>Publico objetivo: Aventureros se encuentren en busca de un buen lugar donde comer, descansar o reabasteser su inventaro de pociones</b></li>
+  <li>
+    <b>Publico:</b> Aventureros que se encuentren en busca de un buen lugar donde comer, descansar o reabastecer su inventario de pociones.
+  </li>
 </ul>
 
-<h2>2 - Estructura del sitio</h2>
+<h2>3 - Estructura del sitio</h2>
+<ul>
+  <li>
+    <b>Maquetado para pantallas inferiores a 1080:</b>
+    <img src="https://raw.githubusercontent.com/LeaFerrero/tpo-driftwood-tavern/main/layout/inferior1080.png" alt="imagen pantallas inferiores a 1080">
+  </li>
+  <li>
+    <b>Maquetado para pantallass superiores a 1080:</b>
+    <img src="https://raw.githubusercontent.com/LeaFerrero/tpo-driftwood-tavern/main/layout/superior1080.png" alt="imagen pantallas superiores a 1080">
+  </li>
+  <li>
+    <b>Maquetado de cómo se deberían representar las secciones:</b> 
+    <img src="https://raw.githubusercontent.com/LeaFerrero/tpo-driftwood-tavern/main/layout/seccion.png" alt="imagen pantallas superiores a 1080">
+  </li>
+</ul>
 
-![Maquetado para pantallas inferiores a 1080](https://raw.githubusercontent.com/LeaFerrero/tpo-driftwood-tavern/main/layout/Pantallas%20inferiores%20a%201080.png)
+<h2>4 - Diseño y Estilo:</h2>
+<p>
+  Teniendo en cuenta que el sitio web está creado para una taberna dentro del juego de rol de Dungeons & Dragons, se buscó darle la estética del manual de dicho juego, tanto fuentes como paleta de colores se <i><b>sacaron del manual</b></i>. Tambien ciertas decisiones funcinales se basaron en dicha estetica, por ejemplo, el formulario de contacto dice que "no pueden enviarse mas de 25 palabras", esta decicion no es abritraria, ya que, dento del juego hay un hechizo, <a href="https://roll20.net/compendium/dnd5e/Sending#content">Sending</a>, que permite enviar un mensaje a distancia de no mas de 25 palabras, y el "scroll of sending" mencionado, es un item consumible que proporciona dicho hehizo.<br><br>
+A continuación una foto de una página del manual:
+</p><br>
+<img src="https://tothetablereviews.files.wordpress.com/2014/09/img_3155.jpg" alt="imagen de manual DnD">
+<br>
 
+<ul>
+  <li>
+    <b>Diseño y estilo:</b> Medieval fantástico, intentando imitar el manual del jugador de Dungeons & Dragons.
+  </li>
+  <li>
+    <b>Colores:</b> Tonos marrones y amarillos, verde claro para las tablas.
+  </li>
+  <li><b>Tipografía:</b> Fue conseguida del repositorio https://github.com/jonathonf/solbera-dnd-fonts/tree/master.</br> 
+  A continuación una lista de qué tipografía se usa y dónde:
+    <ul>
+      <li>Mr Eaves Small Caps: encabezados.</li>
+      <li>Booksanity: párrafos.</li>
+      <li>Scaly Sans: formulario, mensaje de error en el formulario, footer, tbody de la tabla de pociones.</li>
+      <li>Scaly Sans Bold: thead de la tabla de pociones.</li>
+      <li>Scaly Sans Caps: menú desplegable.</li>
+    </ul>
+  </li>
+</ul>
 
+<h2>5 - Contenido y funcionalidades</h2>
+<ul>
+  <li><b>Contenido:</b> Informacion detallada sobre los servicios del lugar, informacion detallada de la historia del lugar, informacion sobre como llegar, imagenes que acompañan el texto.</li>
+  <li><b>Funcionalidades:</b>Formulario de contaco funcional con <a href="https://getform.io">Getform</a>, mapa interactivo de <a href="https://neverwinteractive.com">Neverwinter Interactive Maps</a>
+</ul>
 

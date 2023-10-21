@@ -18,7 +18,8 @@ footer {
     font-size: clamp(1em, 5svw, 1.5em);
 }
 
-.social-media a{
+.social-media a
+{
     text-decoration: none;
     color: #000;
 }
@@ -60,12 +61,5 @@ footer {
     .social-media-links-list img{
         max-width: 15%;
         height: auto;
-    }
-}
-
-@media screen and (min-width: 1080px)
-{
-    footer {
-        margin-top: 7em;
     }
 }
