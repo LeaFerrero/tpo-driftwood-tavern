@@ -11,7 +11,7 @@ main
 /* Estilos para el logo */
 #logo-section
 {
-    background: url("../media/images/tavern-image3.png") no-repeat;
+    background: url("../media/images/tavern-image.png") no-repeat;
     background-size: cover;
     display: flex;
     justify-content: center;
