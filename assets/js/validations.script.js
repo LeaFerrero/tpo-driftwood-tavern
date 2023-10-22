@@ -1,8 +1,13 @@
 const contactForm = document.getElementById("contact-form");
 
+const validateName = (name) => {
+  return name.trim().length < 3 && isNaN(Number(name));
+};
+
+
 // Función para validar el campo de texto (al menos 1 palabra y menos de 25)
-const validateTextArea = (input) => {
-  const words = input.split(/\s+/).filter((word) => word.length > 0);
+const validateTextArea = (email) => {
+  const words = email.split(/\s+/).filter((word) => word.length > 0);
   return words.length > 0 && words.length <= 25;
 };
 
@@ -10,6 +15,13 @@ const validateTextArea = (input) => {
 const validateEmail = (email) => {
   const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
   return emailRegex.test(email);
+};
+
+//Funcion para limpiar los campos
+const clearValues = () => {
+  document.getElementById("name").value = "";
+  document.getElementById("email").value = "";
+  document.getElementById("message").value = "";
 };
 
 // Función para validar el formulario
@@ -32,7 +44,7 @@ const validateForm = (formData) => {
   
   //Retorna falso en caso de que no se cumpla la validacion
   //Imprime el mensaje de error en el campo que corresponda
-  if (name.trim().length < 3) 
+  if (!validateName(name)) 
   {
     nameInput.textContent = "Name needs 3+ letters."
   
@@ -59,17 +71,16 @@ const validateForm = (formData) => {
 // Evento de envío del formulario
 document.getElementById("contact-form").addEventListener("submit", (event) => {
   const formData = new FormData(event.target);
-
+  
   if (!validateForm(formData)) 
   {
-        event.preventDefault(); // Evitar que el formulario se envíe si la validación falla
+    event.preventDefault(); // Evitar que el formulario se envíe si la validación falla
   }
   else
   {
-     // Limpiar campos del formulario
-     document.getElementById("name").value = "";
-     document.getElementById("email").value = "";
-     document.getElementById("message").value = "";
+    // Limpiar campos del formulario
     alert("Formulario enviado, encuanto podamos nos pondremos en contacto.");
   }
 });
+
+clearValues();
