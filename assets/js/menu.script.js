@@ -1,3 +1,5 @@
+/* Aca esta el codigo del menu desplegable */
+
 const hamMenu = document.querySelector(".hamburger-menu");
 const offScreenMenu = document.querySelector(".off-screen-menu");
 const linksList = document.querySelectorAll(".navigation-links-list li");

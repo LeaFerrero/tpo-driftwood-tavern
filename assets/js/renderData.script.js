@@ -1,3 +1,9 @@
+/**
+ * Renderiza los datos en una tabla HTML.
+ *
+ * @param {Object} data - Los datos a renderizar.
+ * @returns {string|null} Un fragmento HTML que representa una tabla con los datos o null si no hay datos válidos.
+ */
 export function renderData (data)
 {
     let items = null

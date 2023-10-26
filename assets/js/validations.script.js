@@ -1,86 +1,100 @@
-const contactForm = document.getElementById("contact-form");
-
+/**
+ * Valida que el nombre tenga mas de 2 letras y no sea numerico
+ * @param {string} name Nombre a validar
+ * @returns {boolean} True si el nombre es valido, false si no lo es
+ */
 const validateName = (name) => {
-  return name.trim().length < 3 && isNaN(Number(name));
+  return name.trim().length > 2 && isNaN(Number(name));
 };
 
-
-// Función para validar el campo de texto (al menos 1 palabra y menos de 25)
-const validateTextArea = (email) => {
-  const words = email.split(/\s+/).filter((word) => word.length > 0);
+/**
+ * Valida que el mensaje 1 o mas palabras y menos o igual a 25
+ * @param {string} message Mensaje a validar
+ * @returns {boolean} True si el mensaje es valido, false si no lo es
+ */
+const validateTextArea = (message) => {
+  const words = message.split(/\s+/).filter((word) => word.length > 0);
   return words.length > 0 && words.length <= 25;
 };
 
-// Función para validar el formato de correo electrónico
+/**
+ * Valida que el mail sea valido
+ * @param {string} email Email a validar 
+ * @returns {boolean} True si el emal es valido, false si no lo es
+ */
 const validateEmail = (email) => {
   const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
   return emailRegex.test(email);
 };
 
-//Funcion para limpiar los campos
-const clearValues = () => {
-  document.getElementById("name").value = "";
-  document.getElementById("email").value = "";
-  document.getElementById("message").value = "";
+/**
+ * Cuenta la cantidad de palabas ingresadas en el textarea
+ */
+const wordsCounter = () => {
+  const textarea = document.getElementById("message");
+  const wordCount = document.getElementById("wordCount");
+  
+  textarea.addEventListener("input", () => {
+    const words = textarea.value.split(/\b\S+\b/g).length - 1;
+    wordCount.innerText = words;
+  });
 };
 
-// Función para validar el formulario
+/**
+ * Valida un formulario y muestra mensajes de error en campos inválidos.
+ *
+ * @param {FormData} formData Los datos del formulario a validar.
+ * @returns {boolean} True si el formulario es válido, de lo contrario, false.
+ */
 const validateForm = (formData) => {
-  
-  let isValid = true;
-  
   const name = formData.get("name");
   const email = formData.get("email");
   const message = formData.get("message");
 
-  const nameInput = document.getElementById("error-name");
-  const mailInput = document.getElementById("error-email");
-  const messageInput = document.getElementById("error-message");
-  
-  //Limpia los mensajes de error 
-  nameInput.textContent = "";
-  mailInput.textContent = ""; 
-  messageInput.textContent = "";
-  
-  //Retorna falso en caso de que no se cumpla la validacion
-  //Imprime el mensaje de error en el campo que corresponda
-  if (!validateName(name)) 
-  {
-    nameInput.textContent = "Name needs 3+ letters."
-  
-    isValid = false;
-  }
+  const errorName = document.getElementById("error-name");
+  const errorEmail = document.getElementById("error-email");
+  const errorMessage = document.getElementById("error-message");
 
-  if (!validateEmail(email)) 
-  {
-    mailInput.textContent = "Enter a valid email."
+  errorName.textContent = !validateName(name) ? "Name needs 3+ letters." : "";
+  errorEmail.textContent = !validateEmail(email) ? "Enter a valid email." : "";
+  errorMessage.textContent = !validateTextArea(message) ? "Message limited to 25 words." : "";
 
-    isValid = false;
-  }
-
-  if (!validateTextArea(message)) 
-  {
-    messageInput.textContent = "Message limited to 25 words."
-
-    isValid = false;
-  }
-
-  return isValid; // El formulario es válido
+  return !(errorName.textContent || errorEmail.textContent || errorMessage.textContent);
 };
 
-// Evento de envío del formulario
-document.getElementById("contact-form").addEventListener("submit", (event) => {
-  const formData = new FormData(event.target);
-  
-  if (!validateForm(formData)) 
-  {
-    event.preventDefault(); // Evitar que el formulario se envíe si la validación falla
-  }
-  else
-  {
-    // Limpiar campos del formulario
-    alert("Formulario enviado, encuanto podamos nos pondremos en contacto.");
-  }
-});
 
+/**
+ * Limpia los campos del formulario
+ */
+const clearValues = () => {
+  document.getElementById("name").textContent = "";
+  document.getElementById("email").textContent = "";
+  document.getElementById("message").textContent = "";
+};
+
+
+/**
+ * Escucha el evento de envío del formulario y realiza la validación del formulario antes de su envío.
+ * Si la validación falla, evita que el formulario se envíe y muestra un mensaje de error. Si la validación es exitosa,
+ * muestra una alerta indicando que el formulario fue enviado.
+ *
+ */
+const formSubmit = () => {
+  document.getElementById("contact-form").addEventListener("submit", (event) => {
+    // Obtiene los datos del formulario
+    const formData = new FormData(event.target);
+    
+    // Valida el formulario
+    if (!validateForm(formData)) 
+    {
+      event.preventDefault(); // Evitar que el formulario se envíe si la validación falla
+    }
+  });
+}
+
+// Inicialización
+formSubmit();
 clearValues();
+wordsCounter();
+
+
