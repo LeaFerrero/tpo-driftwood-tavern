@@ -195,12 +195,12 @@ label
 .message p
 {
     background-color: #fff;
+    padding-top: 0.5em;
     padding-right: 0.5em;
     text-align: right;
     position: absolute;
     bottom: 0;
     width: 100%;
-   ;
 }
 
 #error-name,

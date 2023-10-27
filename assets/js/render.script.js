@@ -37,7 +37,12 @@ export class Render {
         }
     }
 
-    /** */
+    /**
+     * Renderiza elementos HTML en el contenedor especificado.
+     *
+     * @private
+     * @param {string} items - Elementos HTML a renderizar en el contenedor.
+     */
     #renderInContainer(items) 
     {
         this.container.innerHTML = items;
