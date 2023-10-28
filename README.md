@@ -122,7 +122,7 @@ A continuación una foto de una página del manual:
     <b>Funcionalidades:</b>
     <ul>
       <li>Menu desplegable.</li>
-      <li>Formulario de contacto funcional con <a href="https://getform.io">Getform.</li>
+      <li>Formulario de contacto funcional con <a href="https://getform.io">Getform</a>.</li>
     </ul>  
   </li>
 </ul>
@@ -135,6 +135,48 @@ A continuación una foto de una página del manual:
       <li>Janni Granados: formulario, validaciones.</li>
     </ul>
   </li>
+</ul>
+
+<h2>7 - Cronograma Tentativo:</h2>
+<ul>
+  <li><b>Diseño y planificación:</b> 1 semana.</li>
+  <li><b>Desarrollo y programación:</b> 3 semanas.</li>
+  <li><b>Creación de contenido: 1 semana.</b></li>
+</ul>
+
+<h2>8 - Recursos Externos:</h2>
+<ul>
+  <li>Uso de la API <a href="https://open5e.com">Open5e</a> para cargar la lista de pociones que se muestra en la pagina "Potions Catalog".</li>
+  <li>Uso del mapa interactivo de <a href="https://neverwinteractive.com">Neverwinter Interactive Maps</a> en la pagina "Location".</li>
+  <li>Integración de <a href="https://getform.io">Getform</a> para la funcionalidad del formulario contacto</li>
+</ul>
+
+<h2>9 - Desarrollos Futuros y Mejoras Potenciales:</h2>
+<ul>
+  <li>Cerear una animacion de rueda de carga para mostrar antes de que carge la tabla de pociones.</li>
+  <li>Formulario para enviar reservas.</li>
+</ul>
+
+<h2>10 - Contacto:</h2>
+<ul>
+  <li><b>Email de representante:</b><a href="mailto:learferrero@gmail.com" target="" rel="noopener noreferrer nofollow">learferrero@gmail.com</a></li>
+</ul>
+
+<h2>11 - Fecha de entrega:</h2>
+<ul>
+  <li><b>30 de Octubre de 2023</b></li>
+</ul>
+
+<h2>12 - Acreditaciones adicionales:</h2>
+<p>
+  El proyecto se sometio a testeos y se itero varias veces para mejorar tanto el contenido como la experiencia de usuiario. Fue una parte importante    para el proyecto asi que considero importante dejarlo asentado.
+  Los testeos fueron realizados por gente tanto agena al pryecto como agena a Codo a Codo, se incluye la lista a continuacion, con nombre, 
+  dispositivo   y navegador utilizados para el testeo.
+</p>
+<ul>
+  <li>Agustina Zappia: PC - Firefox.
+  <li>Mariano Gonzalez Walsh: PC - Opera GX, PC - Google Chrome, Android - Navegador de Samsung.</li>
+  <li>Patricia Gonzalez Walsh: PC Opera GX, Android - Google Chrome.</li>
 </ul>
 
 
