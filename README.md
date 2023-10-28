@@ -129,7 +129,7 @@ A continuación una foto de una página del manual:
   </li>
 </ul>
 
-<h2>6 - Itegrantes del equipo y representante:</h2>
+<h2>6 - Integrantes del equipo y representante:</h2>
 <ul>
   <li><b>Equipo:</b> 
     <ul>
