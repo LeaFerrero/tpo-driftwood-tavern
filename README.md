@@ -11,7 +11,6 @@
 </ol>
 
 <h2>1 - Titulo y descripción del proyecto</h2>
-
 <ul>
   <li>
     <b>Titulo:</b> Driftwood Tavern - Tavern & inn.
@@ -31,7 +30,7 @@
 
 <h2>3 - Estructura del sitio</h2>
 <ul>
-  <li>Estructura:
+  <li><b>Estructura:</b>
     <ul>
       <li>Home</li>
       <li>Our History</li>
@@ -41,8 +40,9 @@
       <li>Social Media</li>
     </ul>
   </li>
-
-  <li>Maquetado:
+  <br>
+  <li><b>Maquetado:</b>
+    <p> El maquetado incluido corresponde a la ultima iteracion del diseño.
     <ul>
       <li>
         <b>Maquetado para pantallas inferiores a 1080:</b>
@@ -93,7 +93,7 @@ A continuación una foto de una página del manual:
   <li>
     <b>Contenido:</b>
     <ul>
-      <li><b>Información detallada sobre los servicios del lugar:</b> taberna, posada, shows, catálogo de pociones y establos</li>
+      <li>Información detallada sobre los servicios del lugar: taberna, posada, shows, catálogo de pociones y establos</li>
       <li>Información detallada de la historia del lugar.</li>
       <li>Información sobre cómo llegar.</li>
       <li>Imágenes que acompañan el texto y al formulario:
@@ -120,6 +120,7 @@ A continuación una foto de una página del manual:
     </ul>
   </li>
   <li>
+    <br>
     <b>Funcionalidades:</b>
     <ul>
       <li>Menu desplegable.</li>
