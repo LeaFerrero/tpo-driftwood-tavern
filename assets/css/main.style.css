@@ -3,11 +3,6 @@
 @import url("./general.style.css");
 @import url("./keyframe.style.css");
 
-main
-{
-    flex: 1;
-}
-
 /* Estilos para el logo */
 #logo-section
 {
@@ -30,8 +25,6 @@ main
     align-items: center;
     animation: show 1.5s ease-in-out;
     display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .logo > img
@@ -48,7 +41,7 @@ main
 {
     display: flex;
     flex-direction: column;
-    margin: 0 1em;
+    margin: 1em 1em;
 }
 
 .section-main h1,
@@ -57,12 +50,22 @@ main
     border-bottom: 3px solid var(--colorHeaderUnderline);
     padding-bottom: 0.1em;
     margin-bottom: 0.25em;
-    font-size: clamp(1em, 5vw, 2em);
+    font-size: clamp(1.5em, 5vw, 2em);
 }
 
 .section-main p
 {
-    font-size: clamp(0.7em, 2vw, 1em);
+    font-size: clamp(0.8em, 5vw, 1em);
+}
+
+.description
+{
+    margin-bottom: 1em;
+    display: flex;
+    padding: 5%;
+    flex-direction: column;
+    justify-content: center;
+    animation: show 1.5s ease-in-out;
 }
 
 iframe, .image
@@ -72,17 +75,23 @@ iframe, .image
     border-image-width: 15px;
     animation: show 1.5s ease-in-out;
     box-shadow: 0px 0px 5px 5px #8f8971;
+    align-self: center;
 }
 
-.description
+.image
 {
-    margin-top: 25%;
-    margin-bottom: 25%;
-    display: flex;
-    padding: 5% 5% 5% 5%;
-    flex-direction: column;
-    justify-content: center;
-    animation: show 1.5s ease-in-out;
+    max-width: 90%;
+}
+
+iframe
+{
+   width: 90%;
+}
+ 
+.tavern , .inn, .shows, 
+.stable, .potions
+{
+    margin-top: 15%;
 }
 
 #potions-catalog
@@ -165,7 +174,7 @@ td
 
 label 
 {
-    font-size: clamp(0.7em, 2vw, 1em);
+    font-size: clamp(0.9em, 2vw, 1em);
     transform: translateY(10px);
     transition: transform 0.5s, color 0.3s;
     font-family: var(--fontForm);
@@ -192,6 +201,17 @@ label
     position: relative;
 }
 
+#error-name,
+#error-email,
+#error-message
+{
+    color: var(--colorErrorMessage);
+    font-family: var(--fontErrorMessage);
+    position: absolute;
+    right: 0;
+    font-size: clamp(0.9em, 2vw, 1em);
+}
+
 .message p
 {
     background-color: #fff;
@@ -201,17 +221,6 @@ label
     position: absolute;
     bottom: 0;
     width: 100%;
-}
-
-#error-name,
-#error-email,
-#error-message
-{
-    color: var(--colorErrorMessage);
-    font-family: var(--fontErrorMessage);
-    position: absolute;
-    right: 0;
-    font-size: clamp(0.7em, 2vw, 1em);
 }
   
 /* Mediaqueris */
@@ -229,7 +238,7 @@ label
         margin: 10em 3em;
     }
 
-    .our-histpry, .potions-catalog,
+    .our-history, .potions-catalog,
     .location, .form-contact
     {
         margin: 7em 3em;
@@ -239,24 +248,20 @@ label
         flex-direction: row;
         height: max-content;
     }
-
-    #logo
-    {
-        margin-top: 0;
-    }
-    
+   
     .image
     {
         max-width: 30%;
         object-fit: fill;
     }
 
-    iframe{
+    iframe
+    {
         width: 65svw;
     }
 
-    .description{
-        margin: 0;
+    .description
+    {
         padding-top: 0;
         padding-bottom: 0;
     }
@@ -277,11 +282,6 @@ label
     .form-input
     {
         margin-bottom: 0;
-    }
-
-    .form-submit
-    {
-        align-self: flex-end;
     }
 
     .name-subjet, .message

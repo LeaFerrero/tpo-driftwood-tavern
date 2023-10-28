@@ -94,7 +94,7 @@ const formSubmit = () => {
 
 // Inicialización
 formSubmit();
-clearValues();
 wordsCounter();
+clearValues();
 
 
