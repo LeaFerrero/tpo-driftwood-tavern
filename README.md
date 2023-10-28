@@ -119,9 +119,9 @@ A continuación una foto de una página del manual:
       </li>
     </ul>
   </li>
+  <br>
   <li>
-    <br>
-    <b>Funcionalidades:</b>
+     <b>Funcionalidades:</b>
     <ul>
       <li>Menu desplegable.</li>
       <li>Formulario de contacto funcional con <a href="https://getform.io">Getform</a>.</li>
