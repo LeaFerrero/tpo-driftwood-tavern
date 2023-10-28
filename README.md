@@ -99,14 +99,14 @@ A continuación una foto de una página del manual:
       <li>Imágenes que acompañan el texto y al formulario:
         <ul>
           <li>Imagen de bardo: Extraída del manual del jugador de Dungeons & Dragons 5ta edición.</li>
-          <li>Imagen de dormitorio: Ephellem, <a href="https://ar.pinterest.com/ephellem/">Pinterest</a></li>
-          <li>Imagen de establo: Extraída de <a href="https://ar.pinterest.com/pin/857654322810939138/">Pinterest</a></li>
-          <li>Imagen de estante de pociones: Extraída de <a href="https://www.pinterest.es/pin/21814379439074113/">Pinterest</a></li>
-          <li>Imagen de fondo de la taberna: Yami-Yami, <a href="https://www.artstation.com/artwork/QXW90d">ArtStation</a></li>
-          <li>Imagen de gente comiendo en la taberna: Extraída de <a href="https://www.diceanddragons.com/post/a-feast-for-adventurers-the-100-                 fantastical-foods-you-can-order-from-a-tavern">Dice and Dragons</a></li>
-          <li>Imagen de logo: Creada para el proyecto por Agustina Zappia</li>
-          <li>Imagen de Madam Rosene: Creada con IA en <a href="https://stablediffusionweb.com">Stable Diffusion Web</a></li>
-          <li>Imagen de scroll: Konstantin Roshchin, <a href="https://www.artstation.com/artwork/VxvLR">ArtStation</a></li>
+          <li>Imagen de dormitorio: Ephellem, <a href="https://ar.pinterest.com/ephellem/">Pinterest</a>.</li>
+          <li>Imagen de establo: Extraída de <a href="https://ar.pinterest.com/pin/857654322810939138/">Pinterest</a>.</li>
+          <li>Imagen de estante de pociones: Extraída de <a href="https://www.pinterest.es/pin/21814379439074113/">Pinterest</a>.</li>
+          <li>Imagen de fondo de la taberna: Yami-Yami, <a href="https://www.artstation.com/artwork/QXW90d">ArtStation</a>.</li>
+          <li>Imagen de gente comiendo en la taberna: Extraída de <a href="https://www.diceanddragons.com/post/a-feast-for-adventurers-the-100-                 fantastical-foods-you-can-order-from-a-tavern">Dice and Dragons</a>.</li>
+          <li>Imagen de logo: Creada para el proyecto por Agustina Zappia.</li>
+          <li>Imagen de Madam Rosene: Creada con IA en <a href="https://stablediffusionweb.com">Stable Diffusion Web</a>.</li>
+          <li>Imagen de scroll: Konstantin Roshchin, <a href="https://www.artstation.com/artwork/VxvLR">ArtStation</a>.</li>
         </ul>
       </li>
       <li>Iconos utilizados en la página:
@@ -118,6 +118,8 @@ A continuación una foto de una página del manual:
         </ul>
       </li>
     </ul>
+    <p>Aclaracion importante: como la taberna no extiste en el mundo real, clickear sobre Facebook, Twitter o Instagram va a redirigir la pagina           oficial de Dungeons & Dragons de la red social clickeada.
+    </p>
   </li>
   <br>
   <li>
