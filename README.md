@@ -31,17 +31,32 @@
 
 <h2>3 - Estructura del sitio</h2>
 <ul>
-  <li>
-    <b>Maquetado para pantallas inferiores a 1080:</b>
-    <img src="https://raw.githubusercontent.com/LeaFerrero/tpo-driftwood-tavern/main/layout/inferior1080.png" alt="imagen pantallas inferiores a 1080">
+  <li>Estructura:
+    <ul>
+      <li>Home</li>
+      <li>Our History</li>
+      <li>Location</li>
+      <li>Potions Catalog</li>
+      <li>Contact Us</li>
+      <li>Social Media</li>
+    </ul>
   </li>
-  <li>
-    <b>Maquetado para pantallass superiores a 1080:</b>
-    <img src="https://raw.githubusercontent.com/LeaFerrero/tpo-driftwood-tavern/main/layout/superior1080.png" alt="imagen pantallas superiores a 1080">
-  </li>
-  <li>
-    <b>Maquetado de cómo se deberían representar las secciones:</b> 
-    <img src="https://raw.githubusercontent.com/LeaFerrero/tpo-driftwood-tavern/main/layout/seccion.png" alt="imagen pantallas superiores a 1080">
+
+  <li>Maquetado:
+    <ul>
+      <li>
+        <b>Maquetado para pantallas inferiores a 1080:</b>
+        <img src="https://raw.githubusercontent.com/LeaFerrero/tpo-driftwood-tavern/main/layout/inferior1080.png" alt="imagen pantallas inferiores a            1080">
+      </li>
+      <li>
+        <b>Maquetado para pantallass superiores a 1080:</b>
+        <img src="https://raw.githubusercontent.com/LeaFerrero/tpo-driftwood-tavern/main/layout/superior1080.png" alt="imagen pantallas superiores a            1080">
+      </li>
+      <li>
+        <b>Maquetado de cómo se deberían representar las secciones:</b> 
+        <img src="https://raw.githubusercontent.com/LeaFerrero/tpo-driftwood-tavern/main/layout/seccion.png" alt="imagen pantallas superiores a 1080">
+      </li>
+    </ul>
   </li>
 </ul>
 
@@ -72,9 +87,54 @@ A continuación una foto de una página del manual:
   </li>
 </ul>
 
-<h2>5 - Contenido y funcionalidades</h2>
+<h2>5 - Contenido y Funcionalidades</h2>
 <ul>
-  <li><b>Contenido:</b> Informacion detallada sobre los servicios del lugar, informacion detallada de la historia del lugar, informacion sobre como llegar, imagenes que acompañan el texto.</li>
-  <li><b>Funcionalidades:</b>Formulario de contaco funcional con <a href="https://getform.io">Getform</a>, mapa interactivo de <a href="https://neverwinteractive.com">Neverwinter Interactive Maps</a>
+  <li>
+    <b>Contenido:</b>
+    <ul>
+      <li><b>Información detallada sobre los servicios del lugar:</b> taberna, posada, shows, catálogo de pociones y establos</li>
+      <li>Información detallada de la historia del lugar.</li>
+      <li>Información sobre cómo llegar.</li>
+      <li>Imágenes que acompañan el texto y al formulario:
+        <ul>
+          <li>Imagen de bardo: Extraída del manual del jugador de Dungeons & Dragons 5ta edición.</li>
+          <li>Imagen de dormitorio: Ephellem, <a href="https://ar.pinterest.com/ephellem/">Pinterest</a></li>
+          <li>Imagen de establo: Extraída de <a href="https://ar.pinterest.com/pin/857654322810939138/">Pinterest</a></li>
+          <li>Imagen de estante de pociones: Extraída de <a href="https://www.pinterest.es/pin/21814379439074113/">Pinterest</a></li>
+          <li>Imagen de fondo de la taberna: Yami-Yami, <a href="https://www.artstation.com/artwork/QXW90d">ArtStation</a></li>
+          <li>Imagen de gente comiendo en la taberna: Extraída de <a href="https://www.diceanddragons.com/post/a-feast-for-adventurers-the-100-                 fantastical-foods-you-can-order-from-a-tavern">Dice and Dragons</a></li>
+          <li>Imagen de logo: Creada para el proyecto por Agustina Zappia</li>
+          <li>Imagen de Madam Rosene: Creada con IA en <a href="https://stablediffusionweb.com">Stable Diffusion Web</a></li>
+          <li>Imagen de scroll: Konstantin Roshchin, <a href="https://www.artstation.com/artwork/VxvLR">ArtStation</a></li>
+        </ul>
+      </li>
+      <li>Iconos utilizados en la página:
+        <ul>
+          <li><b>Icono de barco (favicon):</b> <a href="https://www.flaticon.es/icono-gratis/galeon_210587">Flaticon</a></li>
+          <li><b>Icono de Twitter:</b> <a href="https://www.flaticon.es/icono-gratis/gorjeo_1384049">Flaticon</a></li>
+          <li><b>Icono de Facebook:</b> <a href="https://www.flaticon.es/icono-gratis/facebook_1384021?related_id=1384005&origin=search">Flaticon</a>           </li>
+          <li><b>Icono de Instagram:</b> <a href="https://www.flaticon.es/icono-gratis/instagram_1384047?                                                        related_id=1384015&origin=search">Flaticon</a></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <b>Funcionalidades:</b>
+    <ul>
+      <li>Menu desplegable.</li>
+      <li>Formulario de contacto funcional con <a href="https://getform.io">Getform.</li>
+    </ul>  
+  </li>
 </ul>
+
+<h2>6 - Itegrantes del equipo y representante:</h2>
+<ul>
+  <li><b>Equipo:</b> 
+    <ul>
+      <li>Leandro Raúl Ferrero: representante, coordinador, maquetacion, diseño, desarrollo, contenido.</li>
+      <li>Janni Granados: formulario, validaciones.</li>
+    </ul>
+  </li>
+</ul>
+
 
