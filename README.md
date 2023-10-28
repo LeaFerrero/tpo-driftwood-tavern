@@ -46,15 +46,16 @@
     <ul>
       <li>
         <b>Maquetado para pantallas inferiores a 1080:</b>
-        <img src="https://raw.githubusercontent.com/LeaFerrero/tpo-driftwood-tavern/main/layout/inferior1080.png" alt="imagen pantallas inferiores a            1080">
+        <img src="https://raw.githubusercontent.com/LeaFerrero/tpo-driftwood-tavern/main/layout/screen-inferior1080.png" alt="imagen pantallas                 inferiores a 1080">
       </li>
       <li>
         <b>Maquetado para pantallass superiores a 1080:</b>
-        <img src="https://raw.githubusercontent.com/LeaFerrero/tpo-driftwood-tavern/main/layout/superior1080.png" alt="imagen pantallas superiores a            1080">
+        <img src="https://raw.githubusercontent.com/LeaFerrero/tpo-driftwood-tavern/main/layout/screen-superior1080.png" alt="imagen pantallas     
+        superiores a 1080">
       </li>
       <li>
         <b>Maquetado de cómo se deberían representar las secciones:</b> 
-        <img src="https://raw.githubusercontent.com/LeaFerrero/tpo-driftwood-tavern/main/layout/seccion.png" alt="imagen pantallas superiores a 1080">
+        <img src="https://raw.githubusercontent.com/LeaFerrero/tpo-driftwood-tavern/main/layout/section.png" alt="imagen pantallas superiores a 1080">
       </li>
     </ul>
   </li>
