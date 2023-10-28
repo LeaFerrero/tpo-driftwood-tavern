@@ -177,7 +177,7 @@ A continuación una foto de una página del manual:
 <p>
   El proyecto se sometio a testeos y se itero varias veces para mejorar tanto el contenido como la experiencia de usuiario. Fue una parte importante    para el proyecto asi que considero importante dejarlo asentado.
   Los testeos fueron realizados por gente tanto agena al pryecto como agena a Codo a Codo, se incluye la lista a continuacion, con nombre, 
-  dispositivo   y navegador utilizados para el testeo.
+  dispositivo y navegador utilizados para el testeo.
 </p>
 <ul>
   <li>Agustina Zappia: PC - Firefox.
