@@ -161,7 +161,7 @@ A continuación una foto de una página del manual:
 
 <h2>10 - Contacto:</h2>
 <ul>
-  <li><b>Email de representante:</b><a href="mailto:learferrero@gmail.com" target="" rel="noopener noreferrer nofollow">learferrero@gmail.com</a></li>
+  <li><b>Email de representante: </b><a href="mailto:learferrero@gmail.com" target="_blank" rel="noopener noreferrer                                    nofollow">learferrero@gmail.com</a></li>
 </ul>
 
 <h2>11 - Fecha de entrega:</h2>
