@@ -115,11 +115,12 @@ A continuación una foto de una página del manual:
           <li><b>Icono de Twitter:</b> <a href="https://www.flaticon.es/icono-gratis/gorjeo_1384049">Flaticon</a></li>
           <li><b>Icono de Facebook:</b> <a href="https://www.flaticon.es/icono-gratis/facebook_1384021?related_id=1384005&origin=search">Flaticon</a>           </li>
           <li><b>Icono de Instagram:</b> <a href="https://www.flaticon.es/icono-gratis/instagram_1384047?                                                        related_id=1384015&origin=search">Flaticon</a></li>
+          <p>
+            Aclaracion importante: como la taberna no extiste en el mundo real, clickear sobre los iconos de Facebook, Twitter o Instagram va a                   redirigir la pagina oficial de Dungeons & Dragons de la red social clickeada.
+          </p>
         </ul>
       </li>
     </ul>
-    <p>Aclaracion importante: como la taberna no extiste en el mundo real, clickear sobre Facebook, Twitter o Instagram va a redirigir la pagina           oficial de Dungeons & Dragons de la red social clickeada.
-    </p>
   </li>
   <br>
   <li>
