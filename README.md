@@ -154,7 +154,7 @@ A continuación unas imagenes de las páginas del manual:
 <h2>8 - Recursos Externos:</h2>
 <ul>
   <li>Uso de la API <a href="https://open5e.com">Open5e</a> para cargar la lista de pociones que se muestra en la pagina "Potions Catalog".</li>
-  <li>Uso del mapa interactivo de <a href="https://neverwinteractive.com">Neverwinter Interactive Maps</a> en la pagina "Location".</li>
+  <li>Implementación del mapa interactivo de <a href="https://neverwinteractive.com">Neverwinter Interactive Maps</a> en la sección "Location" a través de un iframe.    </li>
   <li>Integración de <a href="https://getform.io">Getform</a> para la funcionalidad del formulario contacto</li>
 </ul>
 
