@@ -16,7 +16,7 @@
     <b>Titulo:</b> Driftwood Tavern - Tavern & inn.
   </li>
   <li>
-    <b>Descripcion:</b> El sitio es en sí, es un sitio web de lo que sería un bar, pero para hacer algo distinto se optó por darle otra temática y surgió la idea "¿y si este bar está ubicado en el mundo de Dungeons & Dragons?" "¿Cómo sería que la tabernera nos encargue un sitio para promocionar una taberna en un mundo así?". Bajo esta línea de pensamiento se desarrolló el sitio. Es un sitio web para promocionar una taberna en un mundo de fantasía. Aunque con ligeros cambios puede adaptarse a cualquier bar del mundo real. </br>
+    <b>Descripcion:</b> El sitio es en sí, es un sitio web de un bar, pero para hacer algo distinto se optó por darle otra temática y surgió la idea "¿y si este bar está ubicado en el mundo de Dungeons & Dragons (el juego de rol)?" "¿Cómo sería que la tabernera nos encargue un sitio para promocionar una taberna en un mundo así?". Bajo esta línea de pensamiento se desarrolló el sitio. Es un sitio web para promocionar una taberna en un mundo de fantasía. Aunque con ligeros cambios puede adaptarse a cualquier bar del mundo real. </br>
   </li>
 </ul>
 
@@ -62,9 +62,15 @@
 
 <h2>4 - Diseño y Estilo:</h2>
 <p>
-  Teniendo en cuenta que el sitio web está creado para una taberna dentro del juego de rol de Dungeons & Dragons, se buscó darle la estética del manual de dicho juego, tanto fuentes como paleta de colores se <i><b>sacaron del manual</b></i>. Tambien ciertas decisiones funcinales se basaron en dicha estetica, por ejemplo, el formulario de contacto dice que "no pueden enviarse mas de 25 palabras", esta decicion no es abritraria, ya que, dento del juego hay un hechizo, <a href="https://roll20.net/compendium/dnd5e/Sending#content">Sending</a>, que permite enviar un mensaje a distancia de no mas de 25 palabras, y el "scroll of sending" mencionado, es un item consumible que proporciona dicho hehizo.<br><br>
-A continuación unas imagenes de las páginas del manual:
+  Teniendo en cuenta que el sitio web está creado para una taberna dentro del juego de rol de Dungeons & Dragons, se buscó darle la estética del manual de dicho 
+  juego, tanto fuentes como paleta de colores se <i><b>sacaron del manual</b></i>. Tambien ciertas decisiones funcionales se basaron en dicha estetica, por ejemplo,     el formulario de contacto dice que "no pueden enviarse mas de 25 palabras", esta decicion no es abritraria, ya que, dento del juego hay un hechizo, <a               
+  href="https://roll20.net/compendium/dnd5e/Sending#content">Sending</a>, que permite enviar un mensaje a distancia de no mas de 25 palabras, y el "scroll of sending" 
+  mencionado, es un item consumible que proporciona dicho hehizo.<br>
+  Lo unico un tanto mas diferente es que las imagenes estan dentro de los recuadros adornados, que en el manual contiene texto, se opto por hacerlo asi porque para 
+  incluir las imagenes como en el manual se hubiese necesitado edición, y no alcanzaba el tiempo, hecho de esta forma se pudo incluir imagenes que acomañen al texto     sin perder la referencia pero tambien sin que el contenido sea todo texto.
 </p>
+
+<p>A continuación unas imagenes de las páginas del manual:</p>
 <img src="https://tothetablereviews.files.wordpress.com/2014/09/img_3155.jpg" alt="imagen de manual DnD">
 <img src="https://lh3.googleusercontent.com/pw/ADCreHcDPhoJHeM_EwmzRwkYjYZzv5ltR1UHb9ryUu_3IFdZHLlH0_5jCNktrBogUf44Fmqx46HRIIUQ2GrTpVSAAvB9Pq0GursbOF_ZUuuSlXsfpJ--J_DheL6t8bhzCDdxgdn6nkPRjieCy0mCrFRkglsh_27X9FviKrzR_E_3Ig6LG5pMHleQ1i6vE95EuSTn_iFW0Vi-B94eT9msQOBO8xx6b_RBvU99UtLiH9wS_0IXa1ytfqKK2Nyp8cmW70z21COjmfGBjD-beASU5ic9qVWtVRAtQOzLn6-K9PMaYUYkhW8JoeT9tSSB4pmjKwqO1pA4LHp1wNm4SjlBTQ45Nzdm_1zUBs11DgWLPdtcLg6HT5rLDbhOqGqHKGrFBc5arbP1mOkyZqqTRf4S05wKK0YhY-9VAuZNkKINNo-LX2FUEh4fvcg3pwOzpoDc8E73pJpx1OJW6l9fP0NPgJOxP2zTTdP-4Ow9wTvxYmp9Q5r6mOQGSzofkZqmiCah2VFSbBZjVvrvlgAs9imhG_s8_RKn_9Z91Wy4QJJZdXSg0WnXn9iQASS3jHEbnoN28S_J7d36o7xb_4DEAh0AqleFS3r7-6vJus8kxeGMzDi3VE-3ZyeKOyeGgv4-X6HgzC7pQ9wwV3FLGaHyUv5zgJC-kY9MnCauqmiVJkzFKWcyMDRbO787RQ6JcenVOnnozTykV7mmMkpIo5DFop1_Epam74g1tI2vnkl1iThsi35cGzWX20woWmbX_Jk6KhPPB2hR6zSC6DwrASW2Cbz5nrC6HKuEUfH8SPGiaDrADT752H3zwIyr3e2__hvFIwTFbqsELLLazpbMuAvwewOZmUXSuG8CbUAGYHVxJinMM1Htxupi0XG2Yb2wFq58mBWOwWyVi9yL9oJh24AINjrapoDEWIEjJdwYkx18KgQX0bLsolpV7pysVMhBK5vQ0hEeIy55p0ke6rCDqiZtIODFHEjG7_uvv56iWA=w1343-h869-s-no?authuser=0" alt="imagen de manual DnD">
 <br>
@@ -177,7 +183,7 @@ A continuación unas imagenes de las páginas del manual:
 <h2>12 - Acreditaciones adicionales:</h2>
 <p>
   El proyecto se sometio a testeos y se itero varias veces para mejorar tanto el contenido como la experiencia de usuario. Fue una parte importante para el proyecto asi que considero importante dejarlo asentado.<br>
-  Los testeos fueron realizados por gente tanto agena al pryecto como agena a Codo a Codo. Se incluye la lista a continuacion, con nombre, 
+  Los testeos fueron realizados por gente tanto agena al pryecto como Codo a Codo. Se incluye la lista a continuacion, con nombre, 
   dispositivo y navegador utilizados para el testeo.
 </p>
 <ul>
