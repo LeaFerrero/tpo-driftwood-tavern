@@ -17,7 +17,6 @@
   </li>
   <li>
     <b>Descripcion:</b> El sitio es en sí, es un sitio web de lo que sería un bar, pero para hacer algo distinto se optó por darle otra temática y surgió la idea "¿y si este bar está ubicado en el mundo de Dungeons & Dragons?" "¿Cómo sería que la tabernera nos encargue un sitio para promocionar una taberna en un mundo así?". Bajo esta línea de pensamiento se desarrolló el sitio. Es un sitio web para promocionar una taberna en un mundo de fantasía. Aunque con ligeros cambios puede adaptarse a cualquier bar del mundo real. </br>
-    Pequeña aclaración, la página fue pensada en español en un principio, pero como la API consumida está en inglés, y en base a testeos de usuarios ajenos al proyecto que les chocaba que dos idiomas distintos, se optó por cambiar todo a inglés.
   </li>
 </ul>
 
@@ -104,7 +103,8 @@ A continuación unas imagenes de las páginas del manual:
           <li>Imagen de establo: Extraída de <a href="https://ar.pinterest.com/pin/857654322810939138/">Pinterest</a>.</li>
           <li>Imagen de estante de pociones: Extraída de <a href="https://www.pinterest.es/pin/21814379439074113/">Pinterest</a>.</li>
           <li>Imagen de fondo de la taberna: Yami-Yami, <a href="https://www.artstation.com/artwork/QXW90d">ArtStation</a>.</li>
-          <li>Imagen de gente comiendo en la taberna: Extraída de <a href="https://www.diceanddragons.com/post/a-feast-for-adventurers-the-100-                 fantastical-foods-you-can-order-from-a-tavern">Dice and Dragons</a>.</li>
+          <li>Imagen de gente comiendo en la taberna: Extraída de <a href="https://www.diceanddragons.com/post/a-feast-for-adventurers-the-100-                   
+          fantastical-foods-you-can-order-from-a-tavern">Dice and Dragons</a>.</li>
           <li>Imagen de logo: Creada para el proyecto por Agustina Zappia.</li>
           <li>Imagen de Madam Rosene: Creada con IA en <a href="https://stablediffusionweb.com">Stable Diffusion Web</a>.</li>
           <li>Imagen de scroll: Konstantin Roshchin, <a href="https://www.artstation.com/artwork/VxvLR">ArtStation</a>.</li>
@@ -187,5 +187,6 @@ A continuación unas imagenes de las páginas del manual:
 </ul>
 
 <p>
-  Un detalle adicional, si bien durante el desarrollo se tuvo en cuenta que tambien el diseño sea adaptable a pantallas de tablet, nadie tenia una      tablet para el testeo. No descarto que pueda haber algun problema, pero sin ninguna tablet en que probar el sitio es imposible estar seguro.
+  Un detalle adicional, si bien durante el desarrollo se tuvo en cuenta que tambien el diseño sea adaptable a pantallas de tablet, nadie tenia una tablet para el        testeo. No descarto que pueda haber algun problema, pero sin ninguna tablet en que probar el sitio es imposible estar seguro.
+  También, la página fue pensada en español en un principio, pero como la API consumida está en inglés, y en base a testeos de usuarios les chocaba que dos idiomas      distintos, se optó por cambiar todo a inglés.
 </p>
