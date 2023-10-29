@@ -153,9 +153,9 @@ A continuación unas imagenes de las páginas del manual:
 
 <h2>8 - Recursos Externos:</h2>
 <ul>
-  <li>Uso de la API <a href="https://open5e.com">Open5e</a> para cargar la lista de pociones que se muestra en la pagina "Potions Catalog".</li>
+  <li>Consumo de la API <a href="https://open5e.com">Open5e</a> para cargar la lista de pociones que se muestra en la pagina "Potions Catalog".</li>
   <li>Implementación del mapa interactivo de <a href="https://neverwinteractive.com">Neverwinter Interactive Maps</a> en la sección "Location" a través de un iframe.    </li>
-  <li>Integración de <a href="https://getform.io">Getform</a> para la funcionalidad del formulario contacto</li>
+  <li>Integración de <a href="https://getform.io">Getform</a> para la funcionalidad del formulario contacto.</li>
 </ul>
 
 <h2>9 - Desarrollos Futuros y Mejoras Potenciales:</h2>
@@ -176,7 +176,7 @@ A continuación unas imagenes de las páginas del manual:
 
 <h2>12 - Acreditaciones adicionales:</h2>
 <p>
-  El proyecto se sometio a testeos y se itero varias veces para mejorar tanto el contenido como la experiencia de usuario. Fue una parte importante     para el proyecto asi que considero importante dejarlo asentado.<br>
+  El proyecto se sometio a testeos y se itero varias veces para mejorar tanto el contenido como la experiencia de usuario. Fue una parte importante para el proyecto asi que considero importante dejarlo asentado.<br>
   Los testeos fueron realizados por gente tanto agena al pryecto como agena a Codo a Codo. Se incluye la lista a continuacion, con nombre, 
   dispositivo y navegador utilizados para el testeo.
 </p>
@@ -187,6 +187,6 @@ A continuación unas imagenes de las páginas del manual:
 </ul>
 
 <p>
-  Un detalle adicional, si bien durante el desarrollo se tuvo en cuenta que tambien el diseño sea adaptable a pantallas de tablet, nadie tenia una tablet para el        testeo. No descarto que pueda haber algun problema, pero sin ninguna tablet en que probar el sitio es imposible estar seguro.
-  También, la página fue pensada en español en un principio, pero como la API consumida está en inglés, y en base a testeos de usuarios les chocaba que dos idiomas      distintos, se optó por cambiar todo a inglés.
+  Si bien durante el desarrollo se tuvo en cuenta que tambien el diseño sea adaptable a pantallas de tablet, nadie tenia una tablet para el testeo. No descarto   que    pueda haber algun problema, pero sin ninguna tablet en que probar el sitio es imposible estar seguro.
+  Ademas, la página fue pensada en español en un principio, pero como la API consumida está en inglés, y en base a testeos de usuarios que les chocaba que haya dos      idiomas distintos, se optó por cambiar todo a inglés.
 </p>
