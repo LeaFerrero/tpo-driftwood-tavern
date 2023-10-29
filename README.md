@@ -175,8 +175,8 @@ A continuación una foto de una página del manual:
 
 <h2>12 - Acreditaciones adicionales:</h2>
 <p>
-  El proyecto se sometio a testeos y se itero varias veces para mejorar tanto el contenido como la experiencia de usuiario. Fue una parte importante    para el proyecto asi que considero importante dejarlo asentado.
-  Los testeos fueron realizados por gente tanto agena al pryecto como agena a Codo a Codo, se incluye la lista a continuacion, con nombre, 
+  El proyecto se sometio a testeos y se itero varias veces para mejorar tanto el contenido como la experiencia de usuario. Fue una parte importante     para el proyecto asi que considero importante dejarlo asentado.<br>
+  Los testeos fueron realizados por gente tanto agena al pryecto como agena a Codo a Codo. Se incluye la lista a continuacion, con nombre, 
   dispositivo y navegador utilizados para el testeo.
 </p>
 <ul>
@@ -185,4 +185,6 @@ A continuación una foto de una página del manual:
   <li>Patricia Gonzalez Walsh: PC Opera GX, Android - Google Chrome.</li>
 </ul>
 
-
+<p>
+  Un detalle adicional, si bien durante el desarrollo se tuvo en cuenta que tambien el diseño sea adaptable a pantallas de tablet, nadie tenia una      tablet para el testeo. No descarto que pueda haber algun problema, pero sin ninguna tablet en que probar el sitio es imposible estar seguro.
+</p>
