@@ -66,7 +66,8 @@
   juego, tanto fuentes como paleta de colores se <i><b>sacaron del manual</b></i>. Tambien ciertas decisiones funcionales se basaron en dicha estetica, por ejemplo,     el formulario de contacto dice que "no pueden enviarse mas de 25 palabras", esta decicion no es abritraria, ya que, dento del juego hay un hechizo, <a               
   href="https://roll20.net/compendium/dnd5e/Sending#content">Sending</a>, que permite enviar un mensaje a distancia de no mas de 25 palabras, y el "scroll of sending" 
   mencionado, es un item consumible que proporciona dicho hehizo.<br>
-  Lo unico un tanto mas diferente es que las imagenes estan dentro de los recuadros adornados, que en el manual contiene texto, se opto por hacerlo asi porque para 
+  Lo unico un tanto mas diferente es que las imagenes estan dentro de los recuadros adornados, que en el manual contiene texto (como se muestra mas abajo en la 
+  imagenes del manual, concretamente en la segunda pagina de la segunda imagen en el recuadro de "Draconidos"), se opto por hacerlo asi porque para 
   incluir las imagenes como en el manual se hubiese necesitado edición, y no alcanzaba el tiempo, hecho de esta forma se pudo incluir imagenes que acomañen al texto     sin perder la referencia pero tambien sin que el contenido sea todo texto.
 </p>
 
@@ -122,11 +123,11 @@
           <li><b>Icono de Twitter:</b> <a href="https://www.flaticon.es/icono-gratis/gorjeo_1384049">Flaticon</a>.</li>
           <li><b>Icono de Facebook:</b> <a href="https://www.flaticon.es/icono-gratis/facebook_1384021?                                      
           related_id=1384005&origin=search">Flaticon</a>.</li>
-          <li><b>Icono de Instagram:</b> <a href="https://www.flaticon.es/icono-gratis/instagram_1384047?                                                        related_id=1384015&origin=search">Flaticon</a>.</li>
-          <p>
-            (Aclaracion importante: como la taberna no extiste en el mundo real, clickear sobre los iconos de Facebook, Twitter o Instagram va a                   redirigir la pagina oficial de Dungeons & Dragons de la red social clickeada.)
-          </p>
+          <li><b>Icono de Instagram:</b> <a href="https://www.flaticon.es/icono-gratis/instagram_1384047?related_id=1384015&origin=search">Flaticon</a>.</li>
         </ul>
+        <p>
+          Aclaración importante: como la taberna no existe en el mundo real, hacer clic sobre los iconos de Facebook, Twitter o Instagram redirigirá a la página oficial de Dungeons & Dragons en la red social                correspondiente.
+        </p>
       </li>
     </ul>
   </li>
@@ -145,7 +146,7 @@
   <li><b>Equipo:</b> 
     <ul>
       <li>Leandro Raúl Ferrero: representante, coordinador, maquetacion, diseño, desarrollo, contenido.</li>
-      <li>Janni Granados: formulario, validaciones.</li>
+      <li>Janni Granados: desarrollo, formulario, validaciones.</li>
     </ul>
   </li>
 </ul>
