@@ -100,7 +100,7 @@
   <li>
     <b>Contenido:</b>
     <ul>
-      <li>Información detallada sobre los servicios del lugar: taberna, posada, shows, catálogo de pociones y establos</li>
+      <li>Información detallada sobre los servicios del lugar: taberna, posada, shows, catálogo de pociones y establos.</li>
       <li>Información detallada de la historia del lugar.</li>
       <li>Información sobre cómo llegar.</li>
       <li>Imágenes que acompañan el texto y al formulario:
