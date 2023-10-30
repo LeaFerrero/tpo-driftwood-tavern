@@ -41,7 +41,7 @@ export function renderData (data)
     }
     else
     {
-        console.error("No data potions to render.");
+        console.error("No data to render.");
     }
 
     return items;
