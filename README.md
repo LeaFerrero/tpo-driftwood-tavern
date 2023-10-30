@@ -168,7 +168,6 @@
 <ul>
   <li>Cerear una animacion de rueda de carga para mostrar antes de que carge la tabla de pociones.</li>
   <li>Formulario para enviar reservas.</li>
-  <li>Agregar manejo de errores en el archivo js del consumo de la API, que no se agrego por falta de tiempo.</li>
 </ul>
 
 <h2>10 - Contacto:</h2>
