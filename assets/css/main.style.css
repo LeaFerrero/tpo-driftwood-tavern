@@ -47,6 +47,7 @@ main
     display: flex;
     flex-direction: column;
     margin: 2em 1em;
+    animation: show 1.5s ease-in-out;
 }
 
 .section-main h1,
@@ -70,7 +71,6 @@ main
     padding: 5%;
     flex-direction: column;
     justify-content: center;
-    animation: show 1.5s ease-in-out;
 }
 
 iframe, .image
@@ -78,7 +78,6 @@ iframe, .image
     border-image: url("../media/images/note-border.png") 12 stretch;
     border-image-outset: 12px 0px;
     border-image-width: 15px;
-    animation: show 1.5s ease-in-out;
     box-shadow: 0px 0px 5px 5px #8f8971;
     align-self: center;
 }
@@ -111,7 +110,6 @@ table
     box-sizing: border-box;
     width: 100%; 
     border-collapse: collapse;
-    animation: show 1.5s ease-in-out;
 }
 
 table, th, td 
