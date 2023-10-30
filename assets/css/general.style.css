@@ -81,6 +81,8 @@ body
 {
   background-color: var(--colorBackground);
   background-image: var(--imageBackgroundText);
+  display: flex;
+  flex-direction: column;
 }
 
 h1, h2, h3, h4

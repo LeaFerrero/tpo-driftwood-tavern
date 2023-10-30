@@ -3,6 +3,11 @@
 @import url("./general.style.css");
 @import url("./keyframe.style.css");
 
+main
+{
+    flex: 1;
+}
+
 /* Estilos para el logo */
 #logo-section
 {
@@ -41,7 +46,7 @@
 {
     display: flex;
     flex-direction: column;
-    margin: 1em 1em;
+    margin: 2em 1em;
 }
 
 .section-main h1,
@@ -91,7 +96,7 @@ iframe
 .tavern , .inn, .shows, 
 .stable, .potions
 {
-    margin-top: 15%;
+    margin: 25% 0;
 }
 
 #potions-catalog
