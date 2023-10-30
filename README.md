@@ -11,14 +11,12 @@
 </ol>
 
 <h2>1 - Titulo y descripción del proyecto</h2>
-
 <ul>
   <li>
     <b>Titulo:</b> Driftwood Tavern - Tavern & inn.
   </li>
   <li>
-    <b>Descripcion:</b> El sitio es en sí, es un sitio web de lo que sería un bar, pero para hacer algo distinto se optó por darle otra temática y surgió la idea "¿y si este bar está ubicado en el mundo de Dungeons & Dragons?" "¿Cómo sería que la tabernera nos encargue un sitio para promocionar una taberna en un mundo así?". Bajo esta línea de pensamiento se desarrolló el sitio. Es un sitio web para promocionar una taberna en un mundo de fantasía. Aunque con ligeros cambios puede adaptarse a cualquier bar del mundo real. </br>
-    Pequeña aclaración, la página fue pensada en español en un principio, pero como la API consumida está en inglés, y en base a testeos de usuarios ajenos al proyecto que les chocaba que dos idiomas distintos, se optó por cambiar todo a inglés.
+    <b>Descripcion:</b> El sitio es en sí, es un sitio web de un bar, pero para hacer algo distinto se optó por darle otra temática y surgió la idea "¿y si este bar está ubicado en el mundo de Dungeons & Dragons (el juego de rol)?" "¿Cómo sería que la tabernera nos encargue un sitio para promocionar una taberna en un mundo así?". Bajo esta línea de pensamiento se desarrolló el sitio. Es un sitio web para promocionar una taberna en un mundo de fantasía. Aunque con ligeros cambios puede adaptarse a cualquier bar del mundo real. </br>
   </li>
 </ul>
 
@@ -31,7 +29,7 @@
 
 <h2>3 - Estructura del sitio</h2>
 <ul>
-  <li>Estructura:
+  <li><b>Estructura:</b>
     <ul>
       <li>Home</li>
       <li>Our History</li>
@@ -41,20 +39,22 @@
       <li>Social Media</li>
     </ul>
   </li>
-
-  <li>Maquetado:
+  <br>
+  <li><b>Maquetado:</b>
+    <p> El maquetado incluido corresponde a la ultima iteracion del diseño.
     <ul>
       <li>
         <b>Maquetado para pantallas inferiores a 1080:</b>
-        <img src="https://raw.githubusercontent.com/LeaFerrero/tpo-driftwood-tavern/main/layout/inferior1080.png" alt="imagen pantallas inferiores a            1080">
+        <img src="https://raw.githubusercontent.com/LeaFerrero/tpo-driftwood-tavern/main/layout/screen-inferior1080.png" alt="imagen pantallas                 inferiores a 1080">
       </li>
       <li>
         <b>Maquetado para pantallass superiores a 1080:</b>
-        <img src="https://raw.githubusercontent.com/LeaFerrero/tpo-driftwood-tavern/main/layout/superior1080.png" alt="imagen pantallas superiores a            1080">
+        <img src="https://raw.githubusercontent.com/LeaFerrero/tpo-driftwood-tavern/main/layout/screen-superior1080.png" alt="imagen pantallas     
+        superiores a 1080">
       </li>
       <li>
         <b>Maquetado de cómo se deberían representar las secciones:</b> 
-        <img src="https://raw.githubusercontent.com/LeaFerrero/tpo-driftwood-tavern/main/layout/seccion.png" alt="imagen pantallas superiores a 1080">
+        <img src="https://raw.githubusercontent.com/LeaFerrero/tpo-driftwood-tavern/main/layout/section.png" alt="imagen pantallas superiores a 1080">
       </li>
     </ul>
   </li>
@@ -62,10 +62,18 @@
 
 <h2>4 - Diseño y Estilo:</h2>
 <p>
-  Teniendo en cuenta que el sitio web está creado para una taberna dentro del juego de rol de Dungeons & Dragons, se buscó darle la estética del manual de dicho juego, tanto fuentes como paleta de colores se <i><b>sacaron del manual</b></i>. Tambien ciertas decisiones funcinales se basaron en dicha estetica, por ejemplo, el formulario de contacto dice que "no pueden enviarse mas de 25 palabras", esta decicion no es abritraria, ya que, dento del juego hay un hechizo, <a href="https://roll20.net/compendium/dnd5e/Sending#content">Sending</a>, que permite enviar un mensaje a distancia de no mas de 25 palabras, y el "scroll of sending" mencionado, es un item consumible que proporciona dicho hehizo.<br><br>
-A continuación una foto de una página del manual:
+  Teniendo en cuenta que el sitio web está creado para una taberna dentro del juego de rol de Dungeons & Dragons, se buscó darle la estética del manual de dicho 
+  juego, tanto fuentes como paleta de colores se <i><b>sacaron del manual</b></i>. Tambien ciertas decisiones funcionales se basaron en dicha estetica, por ejemplo,     el formulario de contacto dice que "no pueden enviarse mas de 25 palabras", esta decicion no es abritraria, ya que, dento del juego hay un hechizo, <a               
+  href="https://roll20.net/compendium/dnd5e/Sending#content">Sending</a>, que permite enviar un mensaje a distancia de no mas de 25 palabras, y el "scroll of sending" 
+  mencionado, es un item consumible que proporciona dicho hehizo.<br>
+  Lo unico un tanto mas diferente es que las imagenes estan dentro de los recuadros adornados, que en el manual contiene texto (como se muestra mas abajo en la 
+  imagenes del manual, concretamente en la segunda pagina de la segunda imagen en el recuadro de "Draconidos"), se opto por hacerlo asi porque para 
+  incluir las imagenes como en el manual se hubiese necesitado edición, y no alcanzaba el tiempo, hecho de esta forma se pudo incluir imagenes que acomañen al texto     sin perder la referencia pero tambien sin que el contenido sea todo texto.
 </p>
+
+<p>A continuación unas imagenes de las páginas del manual:</p>
 <img src="https://tothetablereviews.files.wordpress.com/2014/09/img_3155.jpg" alt="imagen de manual DnD">
+<img src="https://lh3.googleusercontent.com/pw/ADCreHcDPhoJHeM_EwmzRwkYjYZzv5ltR1UHb9ryUu_3IFdZHLlH0_5jCNktrBogUf44Fmqx46HRIIUQ2GrTpVSAAvB9Pq0GursbOF_ZUuuSlXsfpJ--J_DheL6t8bhzCDdxgdn6nkPRjieCy0mCrFRkglsh_27X9FviKrzR_E_3Ig6LG5pMHleQ1i6vE95EuSTn_iFW0Vi-B94eT9msQOBO8xx6b_RBvU99UtLiH9wS_0IXa1ytfqKK2Nyp8cmW70z21COjmfGBjD-beASU5ic9qVWtVRAtQOzLn6-K9PMaYUYkhW8JoeT9tSSB4pmjKwqO1pA4LHp1wNm4SjlBTQ45Nzdm_1zUBs11DgWLPdtcLg6HT5rLDbhOqGqHKGrFBc5arbP1mOkyZqqTRf4S05wKK0YhY-9VAuZNkKINNo-LX2FUEh4fvcg3pwOzpoDc8E73pJpx1OJW6l9fP0NPgJOxP2zTTdP-4Ow9wTvxYmp9Q5r6mOQGSzofkZqmiCah2VFSbBZjVvrvlgAs9imhG_s8_RKn_9Z91Wy4QJJZdXSg0WnXn9iQASS3jHEbnoN28S_J7d36o7xb_4DEAh0AqleFS3r7-6vJus8kxeGMzDi3VE-3ZyeKOyeGgv4-X6HgzC7pQ9wwV3FLGaHyUv5zgJC-kY9MnCauqmiVJkzFKWcyMDRbO787RQ6JcenVOnnozTykV7mmMkpIo5DFop1_Epam74g1tI2vnkl1iThsi35cGzWX20woWmbX_Jk6KhPPB2hR6zSC6DwrASW2Cbz5nrC6HKuEUfH8SPGiaDrADT752H3zwIyr3e2__hvFIwTFbqsELLLazpbMuAvwewOZmUXSuG8CbUAGYHVxJinMM1Htxupi0XG2Yb2wFq58mBWOwWyVi9yL9oJh24AINjrapoDEWIEjJdwYkx18KgQX0bLsolpV7pysVMhBK5vQ0hEeIy55p0ke6rCDqiZtIODFHEjG7_uvv56iWA=w1343-h869-s-no?authuser=0" alt="imagen de manual DnD">
 <br>
 
 <ul>
@@ -92,34 +100,39 @@ A continuación una foto de una página del manual:
   <li>
     <b>Contenido:</b>
     <ul>
-      <li><b>Información detallada sobre los servicios del lugar:</b> taberna, posada, shows, catálogo de pociones y establos</li>
+      <li>Información detallada sobre los servicios del lugar: taberna, posada, shows, catálogo de pociones y establos</li>
       <li>Información detallada de la historia del lugar.</li>
       <li>Información sobre cómo llegar.</li>
       <li>Imágenes que acompañan el texto y al formulario:
         <ul>
           <li>Imagen de bardo: Extraída del manual del jugador de Dungeons & Dragons 5ta edición.</li>
-          <li>Imagen de dormitorio: Ephellem, <a href="https://ar.pinterest.com/ephellem/">Pinterest</a></li>
-          <li>Imagen de establo: Extraída de <a href="https://ar.pinterest.com/pin/857654322810939138/">Pinterest</a></li>
-          <li>Imagen de estante de pociones: Extraída de <a href="https://www.pinterest.es/pin/21814379439074113/">Pinterest</a></li>
-          <li>Imagen de fondo de la taberna: Yami-Yami, <a href="https://www.artstation.com/artwork/QXW90d">ArtStation</a></li>
-          <li>Imagen de gente comiendo en la taberna: Extraída de <a href="https://www.diceanddragons.com/post/a-feast-for-adventurers-the-100-                 fantastical-foods-you-can-order-from-a-tavern">Dice and Dragons</a></li>
-          <li>Imagen de logo: Creada para el proyecto por Agustina Zappia</li>
-          <li>Imagen de Madam Rosene: Creada con IA en <a href="https://stablediffusionweb.com">Stable Diffusion Web</a></li>
-          <li>Imagen de scroll: Konstantin Roshchin, <a href="https://www.artstation.com/artwork/VxvLR">ArtStation</a></li>
+          <li>Imagen de dormitorio: Ephellem, <a href="https://ar.pinterest.com/ephellem/">Pinterest</a>.</li>
+          <li>Imagen de establo: Extraída de <a href="https://ar.pinterest.com/pin/857654322810939138/">Pinterest</a>.</li>
+          <li>Imagen de estante de pociones: Extraída de <a href="https://www.pinterest.es/pin/21814379439074113/">Pinterest</a>.</li>
+          <li>Imagen de fondo de la taberna: Yami-Yami, <a href="https://www.artstation.com/artwork/QXW90d">ArtStation</a>.</li>
+          <li>Imagen de gente comiendo en la taberna: Extraída de <a href="https://www.diceanddragons.com/post/a-feast-for-adventurers-the-100-                   
+          fantastical-foods-you-can-order-from-a-tavern">Dice and Dragons</a>.</li>
+          <li>Imagen de logo: Creada para el proyecto por Agustina Zappia.</li>
+          <li>Imagen de Madam Rosene: Creada con IA en <a href="https://stablediffusionweb.com">Stable Diffusion Web</a>.</li>
+          <li>Imagen de scroll: Konstantin Roshchin, <a href="https://www.artstation.com/artwork/VxvLR">ArtStation</a>.</li>
         </ul>
       </li>
       <li>Iconos utilizados en la página:
         <ul>
-          <li><b>Icono de barco (favicon):</b> <a href="https://www.flaticon.es/icono-gratis/galeon_210587">Flaticon</a></li>
-          <li><b>Icono de Twitter:</b> <a href="https://www.flaticon.es/icono-gratis/gorjeo_1384049">Flaticon</a></li>
-          <li><b>Icono de Facebook:</b> <a href="https://www.flaticon.es/icono-gratis/facebook_1384021?related_id=1384005&origin=search">Flaticon</a>           </li>
-          <li><b>Icono de Instagram:</b> <a href="https://www.flaticon.es/icono-gratis/instagram_1384047?                                                        related_id=1384015&origin=search">Flaticon</a></li>
+          <li><b>Icono de barco (favicon):</b> <a href="https://www.flaticon.es/icono-gratis/galeon_210587">Flaticon</a>.</li>
+          <li><b>Icono de Twitter:</b> <a href="https://www.flaticon.es/icono-gratis/gorjeo_1384049">Flaticon</a>.</li>
+          <li><b>Icono de Facebook:</b> <a href="https://www.flaticon.es/icono-gratis/facebook_1384021?                                      
+          related_id=1384005&origin=search">Flaticon</a>.</li>
+          <li><b>Icono de Instagram:</b> <a href="https://www.flaticon.es/icono-gratis/instagram_1384047?related_id=1384015&origin=search">Flaticon</a>.</li>
         </ul>
+        <p>
+          Aclaración importante: como la taberna no existe en el mundo real, hacer clic sobre los iconos de Facebook, Twitter o Instagram redirigirá a la página oficial de Dungeons & Dragons en la red social                correspondiente.
+        </p>
       </li>
     </ul>
   </li>
   <li>
-    <b>Funcionalidades:</b>
+     <b>Funcionalidades:</b>
     <ul>
       <li>Menu desplegable.</li>
       <li>Formulario de contacto funcional con <a href="https://getform.io">Getform</a>.</li>
@@ -127,12 +140,12 @@ A continuación una foto de una página del manual:
   </li>
 </ul>
 
-<h2>6 - Itegrantes del equipo y representante:</h2>
+<h2>6 - Integrantes del equipo y representante:</h2>
 <ul>
   <li><b>Equipo:</b> 
     <ul>
       <li>Leandro Raúl Ferrero: representante, coordinador, maquetacion, diseño, desarrollo, contenido.</li>
-      <li>Janni Granados: formulario, validaciones.</li>
+      <li>Janni Granados: desarrollo, formulario, validaciones.</li>
     </ul>
   </li>
 </ul>
@@ -146,9 +159,9 @@ A continuación una foto de una página del manual:
 
 <h2>8 - Recursos Externos:</h2>
 <ul>
-  <li>Uso de la API <a href="https://open5e.com">Open5e</a> para cargar la lista de pociones que se muestra en la pagina "Potions Catalog".</li>
-  <li>Uso del mapa interactivo de <a href="https://neverwinteractive.com">Neverwinter Interactive Maps</a> en la pagina "Location".</li>
-  <li>Integración de <a href="https://getform.io">Getform</a> para la funcionalidad del formulario contacto</li>
+  <li>Consumo de la API <a href="https://open5e.com">Open5e</a> para cargar la lista de pociones que se muestra en la pagina "Potions Catalog".</li>
+  <li>Implementación del mapa interactivo de <a href="https://neverwinteractive.com">Neverwinter Interactive Maps</a> en la sección "Location" a través de un iframe.    </li>
+  <li>Integración de <a href="https://getform.io">Getform</a> para la funcionalidad del formulario contacto.</li>
 </ul>
 
 <h2>9 - Desarrollos Futuros y Mejoras Potenciales:</h2>
@@ -159,7 +172,7 @@ A continuación una foto de una página del manual:
 
 <h2>10 - Contacto:</h2>
 <ul>
-  <li><b>Email de representante:</b><a href="mailto:learferrero@gmail.com" target="" rel="noopener noreferrer nofollow">learferrero@gmail.com</a></li>
+  <li><b>Email de representante: </b><a href="mailto:learferrero@gmail.com" target="_blank" rel="noopener noreferrer                                    nofollow">learferrero@gmail.com</a></li>
 </ul>
 
 <h2>11 - Fecha de entrega:</h2>
@@ -169,9 +182,9 @@ A continuación una foto de una página del manual:
 
 <h2>12 - Acreditaciones adicionales:</h2>
 <p>
-  El proyecto se sometio a testeos y se itero varias veces para mejorar tanto el contenido como la experiencia de usuiario. Fue una parte importante    para el proyecto asi que considero importante dejarlo asentado.
-  Los testeos fueron realizados por gente tanto agena al pryecto como agena a Codo a Codo, se incluye la lista a continuacion, con nombre, 
-  dispositivo   y navegador utilizados para el testeo.
+  El proyecto se sometio a testeos y se itero varias veces para mejorar tanto el contenido como la experiencia de usuario. Fue una parte importante para el proyecto asi que considero importante dejarlo asentado.<br>
+  Los testeos fueron realizados por gente tanto agena al pryecto como Codo a Codo. Se incluye la lista a continuacion, con nombre, 
+  dispositivo y navegador utilizados para el testeo.
 </p>
 <ul>
   <li>Agustina Zappia: PC - Firefox.
@@ -179,4 +192,7 @@ A continuación una foto de una página del manual:
   <li>Patricia Gonzalez Walsh: PC Opera GX, Android - Google Chrome.</li>
 </ul>
 
-
+<p>
+  Si bien durante el desarrollo se tuvo en cuenta que tambien el diseño sea adaptable a pantallas de tablet, nadie tenia una tablet para el testeo. No descarto   que    pueda haber algun problema, pero sin ninguna tablet en que probar el sitio es imposible estar seguro.
+  Ademas, la página fue pensada en español en un principio, pero como la API consumida está en inglés, y en base a testeos de usuarios que les chocaba que haya dos      idiomas distintos, se optó por cambiar todo a inglés.
+</p>
