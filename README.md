@@ -131,7 +131,6 @@
       </li>
     </ul>
   </li>
-  <br>
   <li>
      <b>Funcionalidades:</b>
     <ul>
