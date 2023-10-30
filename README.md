@@ -16,7 +16,10 @@
     <b>Titulo:</b> Driftwood Tavern - Tavern & inn.
   </li>
   <li>
-    <b>Descripcion:</b> El sitio es en sí, es un sitio web de un bar, pero para hacer algo distinto se optó por darle otra temática y surgió la idea "¿y si este bar está ubicado en el mundo de Dungeons & Dragons (el juego de rol)?" "¿Cómo sería que la tabernera nos encargue un sitio para promocionar una taberna en un mundo así?". Bajo esta línea de pensamiento se desarrolló el sitio. Es un sitio web para promocionar una taberna en un mundo de fantasía. Aunque con ligeros cambios puede adaptarse a cualquier bar del mundo real. </br>
+    <b>Descripcion:</b> El sitio es en sí, es un sitio web de un bar, pero para hacer algo distinto se optó por darle otra temática y surgió la idea "¿y si este bar       está ubicado en el mundo de Dungeons & Dragons (el juego de rol)?" "¿Cómo sería que la tabernera nos encargue un sitio para promocionar una taberna en un mundo        sí?". Bajo esta línea de pensamiento se desarrolló el sitio. Es un sitio web para promocionar una taberna en un mundo de fantasía. Aunque con ligeros cambios          puede adaptarse a cualquier bar del mundo real. </br>
+    Aclarado esto, Driftwood Tavern existe dentro del mundo de Dungeons & Dragons y para armar el sitio se saco informacion  de
+    <a href="https://forgottenrealms.fandom.com/wiki/Driftwood_Tavern">Forgotten Realms Wiki</a> y de <a     
+    href="https://neverwinter.fandom.com/wiki/Driftwood_Tavern">Neverwinter Wiki</a>, aunque la informacion no es igual en los dos sitios, si es la misma taberna.  
   </li>
 </ul>
 
