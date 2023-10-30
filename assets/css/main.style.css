@@ -17,7 +17,6 @@ main
     justify-content: center;
     align-items: center;
     height: 100svh;
-    animation: show 1.5s ease-in-out;
 }
 
 .logo
@@ -96,7 +95,7 @@ iframe
 .tavern , .inn, .shows, 
 .stable, .potions
 {
-    margin-top: 30%;
+    margin-top: 35%;
 }
 
 #potions-catalog
