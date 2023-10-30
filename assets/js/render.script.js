@@ -24,7 +24,7 @@ export class Render {
     {
         if (!callback) 
         {
-            console.log(data);
+            console.error("Callback function is missing.");
         }
         else 
         {
@@ -33,6 +33,10 @@ export class Render {
                 .then(data => {
                     let items = callback(data);
                     this.#renderInContainer(items);
+                })
+                
+                .catch(error => {
+                    console.error("Error during fetch:", error);
                 });
         }
     }
