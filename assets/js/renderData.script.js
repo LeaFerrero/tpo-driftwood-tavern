@@ -41,7 +41,7 @@ export function renderData (data)
     }
     else
     {
-        console.log("no hay datos");
+        console.error("No data to render.");
     }
 
     return items;
