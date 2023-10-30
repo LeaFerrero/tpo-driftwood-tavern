@@ -69,6 +69,7 @@
   Lo unico un tanto mas diferente es que las imagenes estan dentro de los recuadros adornados, que en el manual contiene texto (como se muestra mas abajo en la 
   imagenes del manual, concretamente en la segunda pagina de la segunda imagen en el recuadro de "Draconidos"), se opto por hacerlo asi porque para 
   incluir las imagenes como en el manual se hubiese necesitado edición, y no alcanzaba el tiempo, hecho de esta forma se pudo incluir imagenes que acomañen al texto     sin perder la referencia pero tambien sin que el contenido sea todo texto.
+  Para la forma en la que se muestran las imagenes y los textos en pantalla se uso este sitio como referencia:<a href="https://www.quay.com.au">Quay</a>. Si bien        Driftwood Tavern no es un calco, y no busca serlo, si presenta algunas similitudes, fue en un principio un punto importante por donde arrancar el proyecto, porque     no habia mucha idea de diseño ni maquetado, asi que es importante dejarlo asentado.
 </p>
 
 <p>A continuación unas imagenes de las páginas del manual:</p>
