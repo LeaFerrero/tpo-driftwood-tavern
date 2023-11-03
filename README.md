@@ -77,7 +77,7 @@
 
 <p>A continuación unas imagenes de las páginas del manual:</p>
 <img src="https://tothetablereviews.files.wordpress.com/2014/09/img_3155.jpg" alt="imagen de manual DnD">
-<img src="https://lh3.googleusercontent.com/pw/ADCreHcDPhoJHeM_EwmzRwkYjYZzv5ltR1UHb9ryUu_3IFdZHLlH0_5jCNktrBogUf44Fmqx46HRIIUQ2GrTpVSAAvB9Pq0GursbOF_ZUuuSlXsfpJ--J_DheL6t8bhzCDdxgdn6nkPRjieCy0mCrFRkglsh_27X9FviKrzR_E_3Ig6LG5pMHleQ1i6vE95EuSTn_iFW0Vi-B94eT9msQOBO8xx6b_RBvU99UtLiH9wS_0IXa1ytfqKK2Nyp8cmW70z21COjmfGBjD-beASU5ic9qVWtVRAtQOzLn6-K9PMaYUYkhW8JoeT9tSSB4pmjKwqO1pA4LHp1wNm4SjlBTQ45Nzdm_1zUBs11DgWLPdtcLg6HT5rLDbhOqGqHKGrFBc5arbP1mOkyZqqTRf4S05wKK0YhY-9VAuZNkKINNo-LX2FUEh4fvcg3pwOzpoDc8E73pJpx1OJW6l9fP0NPgJOxP2zTTdP-4Ow9wTvxYmp9Q5r6mOQGSzofkZqmiCah2VFSbBZjVvrvlgAs9imhG_s8_RKn_9Z91Wy4QJJZdXSg0WnXn9iQASS3jHEbnoN28S_J7d36o7xb_4DEAh0AqleFS3r7-6vJus8kxeGMzDi3VE-3ZyeKOyeGgv4-X6HgzC7pQ9wwV3FLGaHyUv5zgJC-kY9MnCauqmiVJkzFKWcyMDRbO787RQ6JcenVOnnozTykV7mmMkpIo5DFop1_Epam74g1tI2vnkl1iThsi35cGzWX20woWmbX_Jk6KhPPB2hR6zSC6DwrASW2Cbz5nrC6HKuEUfH8SPGiaDrADT752H3zwIyr3e2__hvFIwTFbqsELLLazpbMuAvwewOZmUXSuG8CbUAGYHVxJinMM1Htxupi0XG2Yb2wFq58mBWOwWyVi9yL9oJh24AINjrapoDEWIEjJdwYkx18KgQX0bLsolpV7pysVMhBK5vQ0hEeIy55p0ke6rCDqiZtIODFHEjG7_uvv56iWA=w1343-h869-s-no?authuser=0" alt="imagen de manual DnD">
+<img src="https://photos.google.com/photo/AF1QipN_AScnXOsX16C_o0SyscTZoKYpnxMZvNicNdba" alt="imagen de manual DnD">
 <br>
 
 <ul>
@@ -149,7 +149,7 @@
   <li><b>Equipo:</b> 
     <ul>
       <li>Leandro Raúl Ferrero: representante, coordinador, maquetacion, diseño, desarrollo, contenido.</li>
-      <li>Janni Granados: desarrollo, formulario, validaciones.</li>
+      <li>Janni Granados: desarrollo, formulario, validaciones del formulario.</li>
     </ul>
   </li>
 </ul>
